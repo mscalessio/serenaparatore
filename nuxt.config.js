@@ -53,4 +53,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    exposeConfig: false, // enables `import { theme } from '~tailwind.config'`
+  },
 }

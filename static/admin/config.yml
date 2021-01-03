@@ -7,28 +7,56 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'assets/content/blog'
-    format: 'frontmatter'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'projects'
+  - label: 'Settings'
+    name: 'settings'
+    files:
+      - label: 'Info'
+        name: 'info'
+        file: 'assets/content/settings/info.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - {
+              label: Site Name,
+              name: name,
+              widget: string,
+              hint: 'This is used for the site title' }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              hint: 'This is used as descriptive text for links that link to this site',
+            }
+          - {
+              label: Language,
+              name: lang,
+              widget: string,
+              pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
+            }
+          # - { label: Site Email, name: siteemail, widget: string, required: false }
+  # - name: 'blog'
+  #   label: 'Blog'
+  #   folder: 'assets/content/blog'
+  #   format: 'json'
+  #   create: true
+  #   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  #   # editor:
+  #   #   preview: false
+  #   fields:
+  #     - { label: 'Title', name: 'title', widget: 'string' }
+  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+  #     - { label: 'Description', name: 'description', widget: 'string' }
+  #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'works'
     # identifier_field: name
-    label: 'Projects'
-    label_singular: 'Project'
-    folder: 'assets/content/projects'
+    label: 'works'
+    label_singular: 'Work'
+    folder: 'assets/content/works'
     create: true
     format: 'json'
     slug: '{{project_type}}-{{slug}}'
-    preview_path: 'projects/{{slug}}'
+    preview_path: 'work/{{slug}}'
     fields:
       - {
           label: 'Project Type',
