@@ -1,10 +1,12 @@
+import * as SITE_INFO from './assets/content/settings/info.json'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'serenaparatore',
+    title: SITE_INFO.name || process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
