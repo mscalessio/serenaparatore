@@ -1,12 +1,25 @@
 {
   "project_type": "photo",
+  "video": {
+    "type": "vimeo",
+    "title": "Mercedes-Benz Italia | Social Drive Experience",
+    "url": "https://vimeo.com/141401968",
+    "id": "141401968"
+  },
   "date": "2010-08-12T22:40:35.132Z",
-  "cover": "/img/schermata-2019-06-13-alle-01.02.00.png",
+  "cover": {
+    "title": "My First Work",
+    "subtitle": "My very first work",
+    "image": "/images/schermata-2019-06-13-alle-01.02.00.png"
+  },
   "gallery": [
     "/img/img_20181217_130450_bokeh.jpg",
     "/img/black.jpg"
   ],
-  "body": "**Bellaaaa**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit in libero id aliquet. Praesent mattis finibus lorem, ut sollicitudin enim dignissim non. Etiam sed vulputate felis. Suspendisse id urna pharetra, ullamcorper elit in, fringilla arcu. Vivamus porttitor vehicula diam, et elementum urna pharetra sed. Aenean nunc dui, tincidunt varius pellentesque non, vestibulum non nisl. Aliquam eleifend nunc ut orci blandit, ac dapibus ante ultrices. Nulla facilisi. Integer ac tempor magna. Integer tempor interdum justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sit amet nisi elit. Mauris eu dignissim neque. Maecenas a mauris arcu.\n\n* In dapibus eget sapien eu faucibus.\n* Nullam ut neque ac odio pellentesque ultrices.\n* Vestibulum ante purus, lacinia ac mauris a, condimentum ultrices justo. \n* Nunc lobortis tincidunt nunc, sit amet vestibulum ligula molestie sit amet.\n* Donec metus justo, pulvinar sit amet ligula eu, ullamcorper tempus massa.\n* Nunc volutpat euismod maximus.\n* Suspendisse vulputate turpis faucibus, blandit purus sit amet, ornare mauris.\n* Donec tempus lectus vitae leo malesuada, a sodales ante faucibus.\n* Nunc eget fringilla lacus.",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit in libero id aliquet. Praesent mattis finibus lorem, ut sollicitudin enim dignissim non.",
-  "title": "My first work"
+  "description": "**Bellaaaa**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit in libero id aliquet. Praesent mattis finibus lorem, ut sollicitudin enim dignissim non. Etiam sed vulputate felis. Suspendisse id urna pharetra, ullamcorper elit in, fringilla arcu. Vivamus porttitor vehicula diam, et elementum urna pharetra sed. Aenean nunc dui, tincidunt varius pellentesque non, vestibulum non nisl. Aliquam eleifend nunc ut orci blandit, ac dapibus ante ultrices. Nulla facilisi. Integer ac tempor magna. Integer tempor interdum justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sit amet nisi elit. Mauris eu dignissim neque. Maecenas a mauris arcu.\n\n* In dapibus eget sapien eu faucibus.\n* Nullam ut neque ac odio pellentesque ultrices.\n* Vestibulum ante purus, lacinia ac mauris a, condimentum ultrices justo. \n* Nunc lobortis tincidunt nunc, sit amet vestibulum ligula molestie sit amet.\n* Donec metus justo, pulvinar sit amet ligula eu, ullamcorper tempus massa.\n* Nunc volutpat euismod maximus.\n* Suspendisse vulputate turpis faucibus, blandit purus sit amet, ornare mauris.\n* Donec tempus lectus vitae leo malesuada, a sodales ante faucibus.\n* Nunc eget fringilla lacus.",
+  "title": "My first work",
+  "credits": [
+    "**Direction:**\\\nLorenzo Levrero\\\n\\\n**Executive Producer:**\\\nDiego Pizziconi\\\n\\\n**Illustration:**\\\nGiacomo D'Ancona\\\nGiulia Manna\\\n**Modeling:**\\\nGiovanni Mauro\\\nGiacomo Balma\\\n**Rigging:**\\\nGabriele Pastè\\\n**Design, animation & lighting:**\\\nDiletta Scaruffi",
+    "**BCube:**\\\n**Account Executive:**\\\nGiulia Stramazzo\\\n**Executive Creative Director:**\\\nAlessandro Orlandi\\\nAndrea Stanich\\\n**Senior Copywriter:**\\\nAlessandro Miasi\\\n**Senior Art Director:**\\\nGiacomo Piloni\\\n**Strategy Director:**\\\nAlessandro Guarino\\\n**Social Media Manager:**\\\nAlessandro Saraceno"
+  ]
 }
