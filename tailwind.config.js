@@ -16,6 +16,7 @@ module.exports = {
       },
       padding: {
         full: '100%',
+        video: '56.25%',
         'media-sm': '280px',
         'media-md': '420px',
         'media-lg': '448px',

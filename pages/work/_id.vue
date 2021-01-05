@@ -25,6 +25,20 @@
         </div>
       </div>
     </article>
+    <section v-if="work.video" class="p-2 mt-8">
+      <div class="container mx-auto">
+        <div class="relative pt-video">
+          <iframe
+            :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
+            class="absolute inset-0 w-full h-full"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+    </section>
     <section class="p-2 mt-8">
       <div v-if="work.gallery" class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div v-for="image in work.gallery" :key="image.id" class="relative">

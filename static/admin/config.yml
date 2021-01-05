@@ -75,9 +75,11 @@ collections:
       - label: "Cover"
         name: "cover"
         widget: "object"
+        required: false
         summary: '{{fields.title}}: {{fields.image}}'
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "string", required: false}
+          - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
           - label: "Image"
             name: "image"
             widget: "image"
@@ -85,11 +87,20 @@ collections:
             allow_multiple: false
       - label: "Video"
         name: "video"
-        widget: "file"
-        default: null
-        media_library:
-          config:
-            multiple: true
+        widget: "object"
+        required: false
+        summary: '{{fields.type}}: {{fields.id}}'
+        fields:
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            default: "vimeo"
+            required: false
+            options:
+              - { label: "Vimeo", value: "vimeo" }
+          - { label: "Title", name: "title", widget: "string", required: false}
+          - { label: "Url", name: "url", widget: "string", required: false}
+          - { label: "ID", name: "id", widget: "string", required: false}
       - label: "Gallery"
         name: "gallery"
         widget: "list"
