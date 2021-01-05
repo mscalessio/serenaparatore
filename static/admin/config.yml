@@ -60,18 +60,18 @@ collections:
     slug: '{{project_type}}-{{slug}}'
     preview_path: 'work/{{slug}}'
     fields:
-      - label: 'Project Type',
-        name: 'project_type',
-        widget: 'select',
-        default: 'animation',
+      - label: "Project Type"
+        name: "project_type"
+        widget: "select"
+        default: "animation"
         options:
-          - { label: 'Animation', value: 'animation' }
-          - { label: 'Photo', value: 'photo' }
-          - { label: 'Reel', value: 'reel' }
-          - { label: 'Story', value: 'story' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'markdown', required: false }
+          - { label: "Animation", value: "animation" }
+          - { label: "Photo", value: "photo" }
+          - { label: "Reel", value: "reel" }
+          - { label: "Story", value: "story" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown", required: false }
       - label: "Cover"
         name: "cover"
         widget: "object"
@@ -83,16 +83,16 @@ collections:
             widget: "image"
             required: false
             allow_multiple: false
-      - label: "Video",
-          name: "video",
-          widget: "file",
-          default: null,
-          media_library:
-            config:
-              multiple: true
-      - label: 'Gallery',
-        name: 'gallery',
-        widget: 'list',
-        required: false,
-        summary: '{{fields.image}}',
-        field: { label: 'Image', name: 'image', widget: 'image' }
+      - label: "Video"
+        name: "video"
+        widget: "file"
+        default: null
+        media_library:
+          config:
+            multiple: true
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.image}}"
+        field: { label: "Image", name: "image", widget: "image" }
