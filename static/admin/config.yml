@@ -107,3 +107,11 @@ collections:
         required: false
         summary: "{{fields.image}}"
         field: { label: "Image", name: "image", widget: "image" }
+      - label: "Credits"
+        name: "credits"
+        widget: "list"
+        minimize_collapsed: true
+        required: false
+        max: 3
+        min: 1
+        field: { label: "Description", name: "description", widget: "markdown", required: false }
