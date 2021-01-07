@@ -36,14 +36,9 @@
           </button>
         </div>
         <div class="flex-1 flex justify-start">
-          <div class="flex-shrink-0 flex items-center space-x-4">
-            <img
-              class="block h-16 w-auto"
-              src="/images/serena_paratore_logo.png"
-              alt="Serena Paratore Logo"
-            />
-            <p class="hidden lg:block w-auto">Serena Paratore</p>
-          </div>
+          <nuxt-link to="/" class="flex-shrink-0 flex items-center space-x-4">
+            <Logo />
+          </nuxt-link>
         </div>
         <div class="flex items-center">
           <div class="hidden sm:block sm:ml-6">
@@ -76,29 +71,3 @@ export default {
   },
 }
 </script>
-
-<style lang="css" scoped>
-.link {
-  @apply p-2;
-}
-
-.mobile-link {
-  @apply block px-3 py-2 rounded-md text-base font-medium;
-}
-
-.mobile-link.nuxt-link-exact-active {
-  @apply bg-gray-900 text-white;
-}
-
-.mobile-link:not(.nuxt-link-exact-active):hover {
-  @apply text-gray-300 bg-gray-700 text-white;
-}
-
-.link.nuxt-link-exact-active {
-  @apply border-b-4 border-purple-600;
-}
-
-.link:hover {
-  @apply text-purple-600;
-}
-</style>

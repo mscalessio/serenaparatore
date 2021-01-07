@@ -2,7 +2,6 @@
   <nuxt-link :to="`work/${work.slug}`" class="relative flex flex-col">
     <div class="shadow-xl pt-media-sm md:pt-media-md lg:pt-media-lg">
       <img
-        v-if="work.cover && work.cover.image"
         :src="work.cover.image"
         alt=""
         class="absolute inset-0 w-full h-full object-cover bg-gray-100"
@@ -21,11 +20,6 @@
 
 <script>
 export default {
-  props: {
-    work: {
-      type: Object,
-      default: undefined,
-    },
-  },
+  props: ['work'],
 }
 </script>

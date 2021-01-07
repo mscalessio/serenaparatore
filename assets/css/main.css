@@ -1,7 +1,30 @@
-body {
-  @apply transition-colors duration-200 ease-in-out;
-}
+@layer base {
+  body {
+    @apply transition-colors duration-200 ease-in-out;
+  }
 
-.content ul {
-  @apply list-disc list-inside;
+  .link {
+    @apply cursor-pointer py-2 border-b-4 border-transparent;
+  }
+
+  .link.nuxt-link-exact-active,
+  .link:hover {
+    @apply text-purple-600 border-purple-600;
+  }
+
+  .link.nuxt-link-exact-active {
+    @apply cursor-default;
+  }
+
+  .mobile-link {
+    @apply block px-3 py-2 rounded-md text-base font-medium;
+  }
+
+  .mobile-link.nuxt-link-exact-active {
+    @apply bg-gray-900 text-white;
+  }
+
+  .mobile-link:not(.nuxt-link-exact-active):hover {
+    @apply text-gray-300 bg-gray-700 text-white;
+  }
 }
