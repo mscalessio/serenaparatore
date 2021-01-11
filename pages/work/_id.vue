@@ -23,7 +23,25 @@
           <div class="flex-auto">
             <h1 class="text-4xl font-bold">{{ work.title }}</h1>
           </div>
-          <div class="flex-auto" v-html="$md.render(work.description)" />
+          <div class="flex-auto">
+            <div class="p-4" v-html="$md.render(work.description)" />
+            <div v-if="work.extras">
+              <More title="Extra info:">
+                <template v-slot:content>
+                  <div
+                    class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16 bg-gray-200 p-4"
+                  >
+                    <div
+                      v-for="(extra, i) in work.extras"
+                      :key="i"
+                      v-html="$md.render(extra)"
+                      class="text-sm"
+                    ></div>
+                  </div>
+                </template>
+              </More>
+            </div>
+          </div>
         </div>
       </div>
     </article>
@@ -55,16 +73,20 @@
     </section>
     <section v-if="work.credits" class="p-2 mt-8">
       <div class="container mx-auto">
-        <h4 class="text-xl font-extralight mb-2">Credits:</h4>
-        <div
-          class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16"
-        >
-          <div
-            v-for="(credit, i) in work.credits"
-            :key="i"
-            v-html="$md.render(credit)"
-          ></div>
-        </div>
+        <More title="Credits:">
+          <template v-slot:content>
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16 bg-gray-200 p-4"
+            >
+              <div
+                v-for="(credit, i) in work.credits"
+                :key="i"
+                v-html="$md.render(credit)"
+                class="text-sm"
+              ></div>
+            </div>
+          </template>
+        </More>
       </div>
     </section>
   </main>

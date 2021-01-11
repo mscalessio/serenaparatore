@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-8">
+  <footer class="p-2 pb-0 mt-8">
     <div class="container mx-auto">
       <div class="block w-full py-4"><Logo /></div>
       <div class="md:flex py-4 space-y-4 sm:space-y-0">
@@ -48,7 +48,7 @@
           </ul>
         </div>
       </div>
-      <div class="border-t border-gray-300 mt-4 pt-4">
+      <div class="border-t border-gray-300 mt-4 py-4">
         <p class="text-center text-xs font-thin">
           All rights reserved © 2009 - 2021 | Cod. Fisc.: PRTSRN91P44H501B |
           P.Iva: 13470581003

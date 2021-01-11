@@ -1,5 +1,6 @@
 {
   "project_type": "photo",
+  "featured": false,
   "video": {
     "type": "vimeo",
     "title": "Mercedes-Benz Italia | Social Drive Experience",

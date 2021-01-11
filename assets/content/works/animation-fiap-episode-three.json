@@ -1,27 +1,27 @@
 {
   "project_type": "animation",
-  "featured": true,
+  "featured": false,
   "video": {
     "type": "vimeo",
     "title": "Mercedes-Benz Italia | Social Drive Experience",
-    "url": "https://vimeo.com/141401968",
-    "id": "141401968"
+    "url": "https://vimeo.com/315487517",
+    "id": "315487517"
   },
-  "date": "2019-06-10T15:22:52.520Z",
+  "date": "2019-08-17T15:22:52.520Z",
   "cover": {
-    "title": "Mercedes-Benz | GLA Social Drive Experience",
-    "subtitle": "Opening credits of the new Mercedes Benz initiative.",
-    "image": "/images/mercedes-benz-full.jpg"
+    "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
+    "subtitle": "FIAIP and \"do-it-yourself\" negotiations.",
+    "image": "/images/fiap-episode-three.jpg"
   },
   "gallery": [
-    "/images/mercedes-benz-full.jpg",
+    "/images/fiap-episode-three.jpg",
     "/images/img_20181217_130450_bokeh.jpg"
   ],
-  "description": "Mercedes - Benz Italia has launched an interesting initiative to discover to the Italian the new GLA.\\\nIt was possible to test the car to 21 people who later issued a short interview.\\\nThese 21 events were held in different days and locations in order to know the opinion of the people and with the intent to pass a really important day.",
-  "title": "Mercedes-Benz | GLA Social Drive Experience",
+  "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell, rent or buy a house without a real estate agent.\\\nAre you sure you want to risk?\\\nStay tuned..",
+  "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
   "extras": [
     "**Year:**\\\n2019",
-    "**Client:**\\\nMercedes-Benz"
+    "**Client:**\\\nFIAP"
   ],
   "credits": [
     "**Direction:**\\\nLorenzo Levrero\\\n\\\n**Executive Producer:**\\\nDiego Pizziconi\\\n\\\n**Illustration:**\\\nGiacomo D'Ancona\\\nGiulia Manna\\\n**Modeling:**\\\nGiovanni Mauro\\\nGiacomo Balma\\\n**Rigging:**\\\nGabriele Pastè\\\n**Design, animation & lighting:**\\\nDiletta Scaruffi",

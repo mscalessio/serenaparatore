@@ -1,5 +1,9 @@
 <template>
-  <nuxt-link :to="`work/${work.slug}`" class="relative flex flex-col">
+  <nuxt-link
+    :to="`work/${work.slug}`"
+    class="relative flex flex-col"
+    :class="{ 'col-span-2': work.featured }"
+  >
     <div class="shadow-xl pt-media-sm md:pt-media-md lg:pt-media-lg">
       <img
         :src="work.cover.image"
@@ -20,6 +24,12 @@
 
 <script>
 export default {
-  props: ['work'],
+  name: 'Card',
+  props: {
+    work: {
+      type: Object,
+      default: undefined,
+    },
+  },
 }
 </script>

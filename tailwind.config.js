@@ -22,6 +22,9 @@ module.exports = {
         'media-lg': '448px',
         'media-xl': '476px',
       },
+      transitionProperty: {
+        'max-height': 'max-height',
+      },
     },
     boxShadow: {
       ...defaultTheme.boxShadow,

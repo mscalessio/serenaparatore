@@ -10,7 +10,7 @@
     >
       <slot>More</slot>
       <svg
-        class="-mr-1 ml-2 h-5 w-5 text-gray-500"
+        class="mr-1 ml-2 h-5 w-5 text-gray-500"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"

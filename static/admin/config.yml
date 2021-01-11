@@ -72,6 +72,15 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Extras"
+        name: "extras"
+        widget: "list"
+        minimize_collapsed: true
+        required: false
+        max: 3
+        min: 1
+        field: { label: "Column", name: "column", widget: "markdown", required: false }
       - label: "Cover"
         name: "cover"
         widget: "object"
@@ -114,4 +123,4 @@ collections:
         required: false
         max: 3
         min: 1
-        field: { label: "Description", name: "description", widget: "markdown", required: false }
+        field: { label: "Column", name: "column", widget: "markdown", required: false }
