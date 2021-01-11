@@ -75,12 +75,18 @@
     <section class="p-2 mt-8">
       <div v-if="work.gallery" class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div v-for="image in work.gallery" :key="image.id" class="relative">
-          <figure class="pt-full">
+          <nuxt-image
+            :placeholder="true"
+            width="300"
+            height="300"
+            :src="image"
+          />
+          <!-- <figure class="pt-full">
             <img
               class="absolute inset-0 w-full h-full object-cover bg-gray-100"
               :src="image"
             />
-          </figure>
+          </figure> -->
         </div>
       </div>
     </section>

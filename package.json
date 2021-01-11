@@ -19,6 +19,7 @@
     "portal-vue": "^2.1.7"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.0.4",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/markdownit": "^1.2.10",

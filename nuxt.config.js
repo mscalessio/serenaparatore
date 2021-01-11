@@ -69,6 +69,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxt/image',
     '@nuxtjs/markdownit',
     'portal-vue/nuxt',
   ],
@@ -78,6 +79,9 @@ export default {
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
+
+  // Content module configuration (https://image.nuxtjs.org/options)
+  image: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
