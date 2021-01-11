@@ -46,18 +46,31 @@
       </div>
     </article>
     <section v-if="work.video" class="p-2 mt-8">
-      <div class="container mx-auto">
-        <div class="relative pt-video">
-          <iframe
-            :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
-            class="absolute inset-0 w-full h-full"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
+      <!-- <div class="relative pt-video">
+        <iframe
+          :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
+          class="absolute inset-0 w-full h-full"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
       </div>
+      <script src="https://player.vimeo.com/api/player.js"></script> -->
+      <button @click.prevent="showVideo = true">open modal</button>
+      <Portal to="end-body">
+        <Modal v-if="showVideo" @close="showVideo = !showVideo">
+          <div class="relative pt-video">
+            <iframe
+              :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
+              class="absolute inset-0 w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </Modal>
+      </Portal>
     </section>
     <section class="p-2 mt-8">
       <div v-if="work.gallery" class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -81,8 +94,8 @@
               <div
                 v-for="(credit, i) in work.credits"
                 :key="i"
-                v-html="$md.render(credit)"
                 class="text-sm"
+                v-html="$md.render(credit)"
               ></div>
             </div>
           </template>
@@ -99,6 +112,11 @@ export default {
       return {
         work: await require(`~/assets/content/works/${params.id}.json`),
       }
+  },
+  data() {
+    return {
+      showVideo: false,
+    }
   },
 }
 </script>

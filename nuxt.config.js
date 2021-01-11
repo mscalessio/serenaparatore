@@ -33,6 +33,9 @@ export default {
           'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap',
       },
     ],
+    bodyAttrs: {
+      class: 'antialiased',
+    },
   },
 
   generate: {
@@ -67,6 +70,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/markdownit',
+    'portal-vue/nuxt',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
