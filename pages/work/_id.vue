@@ -34,8 +34,8 @@
                     <div
                       v-for="(extra, i) in work.extras"
                       :key="i"
-                      v-html="$md.render(extra)"
                       class="text-sm"
+                      v-html="$md.render(extra)"
                     ></div>
                   </div>
                 </template>
@@ -72,23 +72,9 @@
         </Modal>
       </Portal>
     </section>
-    <section class="p-2 mt-8">
-      <div v-if="work.gallery" class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <div v-for="image in work.gallery" :key="image.id" class="relative">
-          <nuxt-image
-            :placeholder="true"
-            width="300"
-            height="300"
-            :src="image"
-          />
-          <!-- <figure class="pt-full">
-            <img
-              class="absolute inset-0 w-full h-full object-cover bg-gray-100"
-              :src="image"
-            />
-          </figure> -->
-        </div>
-      </div>
+    <section v-if="work.gallery" class="p-4 mt-8">
+      <!-- for auto-arrangment use grid-flow-row-dense -->
+      <Gallery :items="work.gallery" />
     </section>
     <section v-if="work.credits" class="p-2 mt-8">
       <div class="container mx-auto">
@@ -108,6 +94,7 @@
         </More>
       </div>
     </section>
+    <Cta />
   </main>
 </template>
 <script>
