@@ -1,5 +1,7 @@
 <template>
-  <nav class="bg-white">
+  <nav
+    :class="[sticky ? 'fixed top-0 right-0 w-full z-50' : 'bg-white', navClass]"
+  >
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-24">
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
@@ -62,12 +64,43 @@
 </template>
 
 <script>
+import debounce from 'lodash/debounce'
+
 export default {
   name: 'Navbar',
+  props: {
+    sticky: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
       open: false,
+      navbarHeight: 50,
+      isUserScrolling: false,
     }
+  },
+  computed: {
+    navClass() {
+      return {
+        'bg-transparent': this.sticky && !this.isUserScrolling,
+        'bg-white': this.sticky && this.isUserScrolling,
+        'shadow-2xl': this.sticky && this.isUserScrolling,
+      }
+    },
+  },
+  beforeMount() {
+    this.handleDebouncedScroll = debounce(this.handleScroll)
+    window.addEventListener('scroll', this.handleDebouncedScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleDebouncedScroll)
+  },
+  methods: {
+    handleScroll(event) {
+      this.isUserScrolling = window.scrollY > this.navbarHeight
+    },
   },
 }
 </script>
