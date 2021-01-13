@@ -8,6 +8,13 @@ public_folder: /images
 
 locale: 'it'
 
+media_library:
+  name: cloudinary
+  # output_filename_only: true
+  config:
+    cloud_name: succimas
+    api_key: 767197248277585
+
 collections:
   - label: 'Settings'
     name: 'settings'
@@ -186,7 +193,7 @@ collections:
                 - { label: "Title", name: "title", widget: "string", required: false}
                 - { label: "Alt Text", name: "alt", widget: "string", required: false}
                 - { label: "Fullwidth", name: "fullwidth", widget: "boolean", default: false }
-                - { label: "Image", name: "image", widget: "image", default: false}
+                - { label: "Image", name: "image", widget: "image", default: false, media_folder: "/static/images/work"}
       - label: "Credits"
         name: "credits"
         widget: "list"
