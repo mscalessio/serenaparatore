@@ -78,7 +78,9 @@ export default {
   axios: {},
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {},
+  content: {
+    dir: 'assets/content',
+  },
 
   // Content module configuration (https://image.nuxtjs.org/options)
   image: {},

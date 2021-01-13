@@ -2,29 +2,37 @@
   <main v-if="work">
     <section
       v-if="work.cover"
-      class="relative py-40 bg-gray-100 bg-no-repeat bg-cover"
+      class="relative px-4 py-40 bg-gray-100 bg-no-repeat bg-cover"
       :style="{ backgroundImage: `url('${work.cover.image}')` }"
     >
-      <div class="container mx-auto px-6">
-        <h2 v-if="work.cover.title" class="text-4xl font-bold mb-2 text-white">
-          {{ work.cover.title }}
-        </h2>
-        <h3 v-if="work.cover.subtitle" class="text-2xl mb-2 text-white">
-          {{ work.cover.subtitle }}
-        </h3>
-        <h4 class="text-2xl mb-8 text-gray-200">
-          {{ work.project_type }}
-        </h4>
+      <div class="container mx-auto">
+        <div class="sm:w-2/3 lg:w-1/2">
+          <h2
+            v-if="work.cover.title"
+            class="text-xl md:text-4xl font-bold mb-2 text-white"
+          >
+            {{ work.cover.title }}
+          </h2>
+          <h3
+            v-if="work.cover.subtitle"
+            class="text-lg md:text-2xl mb-2 text-white"
+          >
+            {{ work.cover.subtitle }}
+          </h3>
+          <h4 class="md:text-2xl font-thin mb-8 text-white">
+            {{ work.project_type }}
+          </h4>
+        </div>
       </div>
     </section>
-    <article class="p-2 mt-8">
+    <article class="p-4 mt-8">
       <div class="container mx-auto">
         <div class="flex flex-col md:flex-row md:space-x-16">
           <div class="flex-auto">
             <h1 class="text-4xl font-bold">{{ work.title }}</h1>
           </div>
           <div class="flex-auto">
-            <div class="p-4" v-html="$md.render(work.description)" />
+            <div class="md:px-4 py-4" v-html="$md.render(work.description)" />
             <div v-if="work.extras">
               <More title="Extra info:">
                 <template v-slot:content>

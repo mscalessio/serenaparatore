@@ -81,8 +81,8 @@ export default {
           url: '/works',
         },
         {
-          name: 'Info',
-          url: '/info',
+          name: 'About',
+          url: '/about',
         },
       ],
       socials: [
