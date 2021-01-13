@@ -161,24 +161,48 @@
   </main>
 </template>
 <script>
+import capitalize from 'lodash/capitalize'
+
 export default {
-  async asyncData({ params, payload }) {
-    if (payload) return { work: payload }
-    else
-      return {
-        work: await require(`~/assets/content/works/${params.id}.json`),
-      }
+  async asyncData({ $content, params, error }) {
+    const work = await $content('work', params.slug)
+      .fetch()
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.log(err)
+        error({ statusCode: 404, message: 'Page not found' })
+      })
+    const site = await $content('site/info')
+      .fetch()
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.log(err)
+        error({ statusCode: 404, message: 'Page not found' })
+      })
+
+    return {
+      work,
+      site,
+    }
   },
   data() {
     return {
       showVideo: false,
     }
   },
-  computed: {
-    content(md) {
-      debugger
-      return md && this.$md.render(md)
-    },
+  head() {
+    return {
+      title: `${this.work.metadata.title} | ${capitalize(
+        this.work.project_type
+      )} | ${this.site.name}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.work.metadata.description || this.site.description,
+        },
+      ],
+    }
   },
 }
 </script>

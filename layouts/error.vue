@@ -35,6 +35,6 @@
 <script>
 export default {
   name: 'Error',
-  props: ['error'],
+  props: { error: { type: Object, default: undefined } },
 }
 </script>
