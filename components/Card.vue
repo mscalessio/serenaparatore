@@ -1,9 +1,5 @@
 <template>
-  <nuxt-link
-    :to="`work/${work.slug}`"
-    class="relative flex flex-col"
-    :class="{ 'col-span-2': work.featured }"
-  >
+  <nuxt-link :to="`work/${work.slug}`" class="relative flex flex-col">
     <div class="shadow-xl pt-media-sm md:pt-media-md lg:pt-media-lg">
       <img
         :src="work.cover.image"

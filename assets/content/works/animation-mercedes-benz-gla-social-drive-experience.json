@@ -4,6 +4,7 @@
   "video": {
     "type": "vimeo",
     "title": "Mercedes-Benz Italia | Social Drive Experience",
+    "cover": "/images/mercedes-benz-full.jpg",
     "url": "https://vimeo.com/141401968",
     "id": "141401968"
   },
@@ -13,10 +14,23 @@
     "subtitle": "Opening credits of the new Mercedes Benz initiative.",
     "image": "/images/mercedes-benz-full.jpg"
   },
-  "gallery": [
-    "/images/mercedes-benz-full.jpg",
-    "/images/img_20181217_130450_bokeh.jpg"
-  ],
+  "gallery": {
+    "columns": 2,
+    "items": [
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/mercedes-benz-full.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      }
+    ]
+  },
   "description": "Mercedes - Benz Italia has launched an interesting initiative to discover to the Italian the new GLA.\\\nIt was possible to test the car to 21 people who later issued a short interview.\\\nThese 21 events were held in different days and locations in order to know the opinion of the people and with the intent to pass a really important day.",
   "title": "Mercedes-Benz | GLA Social Drive Experience",
   "extras": [

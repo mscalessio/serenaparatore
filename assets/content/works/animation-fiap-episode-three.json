@@ -4,6 +4,7 @@
   "video": {
     "type": "vimeo",
     "title": "Mercedes-Benz Italia | Social Drive Experience",
+    "cover": "/images/fiap-episode-three.jpg",
     "url": "https://vimeo.com/315487517",
     "id": "315487517"
   },
@@ -13,16 +14,59 @@
     "subtitle": "FIAIP and \"do-it-yourself\" negotiations.",
     "image": "/images/fiap-episode-three.jpg"
   },
-  "gallery": [
-    "/images/fiap-episode-three.jpg",
-    "/images/img_20181217_130450_bokeh.jpg",
-    "/images/fiap-episode-three.jpg",
-    "/images/img_20181217_130450_bokeh.jpg",
-    "/images/fiap-episode-three.jpg",
-    "/images/img_20181217_130450_bokeh.jpg",
-    "/images/mercedes-benz-full.jpg",
-    "/images/fiap-episode-three.jpg"
-  ],
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": true,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/mercedes-benz-full.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      }
+    ]
+  },
   "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell, rent or buy a house without a real estate agent.\\\nAre you sure you want to risk?\\\nStay tuned..",
   "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
   "extras": [

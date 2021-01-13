@@ -1,9 +1,15 @@
 <template>
   <main>
     <div class="container mx-auto">
-      <div class="grid grid-flow-row-dense md:grid-cols-2 gap-4">
-        <Card v-for="(work, index) in works" :key="index" :work="work" />
-      </div>
+      <Gallery :columns="2">
+        <GalleryItem
+          v-for="(item, i) in works"
+          :key="i"
+          :fullwidth="item.featured"
+        >
+          <Card :work="item" />
+        </GalleryItem>
+      </Gallery>
     </div>
     <Cta />
   </main>

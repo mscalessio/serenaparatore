@@ -39,50 +39,5 @@ export default {
       isOpen: false,
     }
   },
-  computed: {
-    classObject() {
-      return {
-        'ease-out': !this.isOpen,
-        'duration-300': !this.isOpen,
-        'max-h-96': this.isOpen,
-        'ease-in': this.isOpen,
-        'duration-75': this.isOpen,
-      }
-    },
-  },
-  methods: {
-    beforeEnter(el) {
-      // el.classList.toggle('ease-out')
-      // el.classList.toggle('duration-1000')
-      // el.classList.toggle('')
-    },
-    enter(el, done) {
-      el.classList.toggle('max-h-96')
-      done()
-    },
-    afterEnter(el) {
-      // setTimeout(function () {
-      //   el.classList.toggle('ease-out')
-      //   el.classList.toggle('duration-1000')
-      //   el.classList.toggle('max-h-0')
-      // }, 1000)
-    },
-    beforeLeave(el) {
-      // el.classList.toggle('ease-in')
-      // el.classList.toggle('duration-1000')
-    },
-    leave(el, done) {
-      el.classList.toggle('max-h-96')
-      done()
-      // setTimeout(function () {
-      // }, 1000)
-    },
-    afterLeave(el) {
-      // el.classList.toggle('ease-in')
-      // el.classList.toggle('duration-1000')
-      // el.classList.toggle('max-h-0')
-      // el.classList.toggle('max-h-96')
-    },
-  },
 }
 </script>

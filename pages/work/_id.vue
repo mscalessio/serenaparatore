@@ -45,36 +45,76 @@
         </div>
       </div>
     </article>
-    <section v-if="work.video" class="p-2 mt-8">
-      <!-- <div class="relative pt-video">
-        <iframe
-          :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
-          class="absolute inset-0 w-full h-full"
-          frameborder="0"
-          allow="autoplay; fullscreen"
-          allowfullscreen
-        ></iframe>
+    <section v-if="work.video" class="p-4 pb-0 mt-8 mb-0">
+      <div class="relative">
+        <figure class="pt-video">
+          <img
+            :src="work.video.cover || work.cover.image"
+            alt="Video Cover"
+            class="absolute inset-0 w-full h-full object-cover bg-gray-100"
+          />
+        </figure>
+        <span
+          class="absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2 origin-center w-auto"
+        >
+          <button
+            class="inline-flex items-center px-8 py-4 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:border-purple-700 active:bg-purple-700 transition ease-in-out duration-150"
+            type="button"
+            @click.prevent="showVideo = true"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="animate-bounce w-6 h-6 mr-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            Play Video
+          </button>
+        </span>
       </div>
-      <script src="https://player.vimeo.com/api/player.js"></script> -->
-      <button @click.prevent="showVideo = true">open modal</button>
-      <Portal to="end-body">
-        <Modal v-if="showVideo" @close="showVideo = !showVideo">
-          <div class="relative pt-video">
-            <iframe
-              :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
-              class="absolute inset-0 w-full h-full"
-              frameborder="0"
-              allow="autoplay; fullscreen"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
-        </Modal>
-      </Portal>
     </section>
-    <section v-if="work.gallery" class="p-4 mt-8">
+    <section v-if="work.gallery" class="p-4 mt-0">
       <!-- for auto-arrangment use grid-flow-row-dense -->
-      <Gallery :items="work.gallery" />
+      <Gallery :columns="work.gallery.columns">
+        <GalleryItem
+          v-for="(item, i) in work.gallery.items"
+          :key="i"
+          :fullwidth="item.fullwidth"
+        >
+          <!-- for USE THIS ONLY IN SSR -->
+          <!-- <nuxt-image
+            v-for="(item, index) in items"
+            :key="index"
+            :placeholder="true"
+            width="400"
+            height="225"
+            :src="item"
+            :class="[itemFullClass(index)]"
+          /> -->
+          <figure class="pt-video">
+            <img
+              class="absolute inset-0 w-full h-full object-cover bg-gray-100"
+              :class="{ 'col-span-full': item.fullwidth }"
+              :alt="item.alt || `${work.title} Image ${i}`"
+              :src="item.image"
+            />
+          </figure>
+        </GalleryItem>
+      </Gallery>
     </section>
     <section v-if="work.credits" class="p-2 mt-8">
       <div class="container mx-auto">
@@ -95,6 +135,21 @@
       </div>
     </section>
     <Cta />
+
+    <Portal to="end-body">
+      <Modal v-if="showVideo" @close="showVideo = !showVideo">
+        <div class="relative pt-video">
+          <iframe
+            :src="`https://player.vimeo.com/video/${work.video.id}?title=0&byline=0&portrait=0`"
+            class="absolute inset-0 w-full h-full"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </Modal>
+    </Portal>
   </main>
 </template>
 <script>
@@ -110,6 +165,12 @@ export default {
     return {
       showVideo: false,
     }
+  },
+  computed: {
+    content(md) {
+      debugger
+      return md && this.$md.render(md)
+    },
   },
 }
 </script>

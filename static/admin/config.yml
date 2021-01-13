@@ -60,6 +60,7 @@ collections:
     slug: '{{project_type}}-{{slug}}'
     preview_path: 'work/{{slug}}'
     fields:
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
       - label: "Project Type"
         name: "project_type"
         widget: "select"
@@ -72,7 +73,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown", required: false }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false }
       - label: "Extras"
         name: "extras"
         widget: "list"
@@ -108,14 +108,36 @@ collections:
             options:
               - { label: "Vimeo", value: "vimeo" }
           - { label: "Title", name: "title", widget: "string", required: false}
+          - { label: "Cover", name: "cover", widget: "image", default: false}
           - { label: "Url", name: "url", widget: "string", required: false}
           - { label: "ID", name: "id", widget: "string", required: false}
       - label: "Gallery"
         name: "gallery"
-        widget: "list"
+        widget: "object"
         required: false
-        summary: "{{fields.image}}"
-        field: { label: "Image", name: "image", widget: "image" }
+        fields:
+          - label: "Grid Columns"
+            name: "columns"
+            widget: "number"
+            default: 2
+            value_type: "int"
+            min: 1
+            max: 6
+            step: 1
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            field:
+              label: "Item"
+              name: "item"
+              widget: "object"
+              required: false
+              fields:
+                - { label: "Title", name: "title", widget: "string", required: false}
+                - { label: "Alt Text", name: "alt", widget: "string", required: false}
+                - { label: "Fullwidth", name: "fullwidth", widget: "boolean", default: false }
+                - { label: "Image", name: "image", widget: "image", default: false}
       - label: "Credits"
         name: "credits"
         widget: "list"
