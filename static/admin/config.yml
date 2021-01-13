@@ -26,24 +26,68 @@ collections:
         editor:
           preview: false
         fields:
-          - {
-              label: Site Name,
-              name: name,
-              widget: string,
-              hint: 'This is used for the site title'
-            }
-          - {
-              label: Description,
-              name: description,
-              widget: string,
-              hint: 'This is used as descriptive text for links that link to this site'}
-          - {
-              label: Language,
-              name: lang,
-              widget: string,
-              pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")']
-            }
-
+          - label: Site Name
+            name: name
+            widget: string
+            hint: 'This is used for the site title'
+          - label: Description
+            name: description
+            widget: string
+            hint: 'This is used as descriptive text for links that link to this site'
+          - label: Language
+            name: lang
+            widget: string
+            pattern:
+              - '^[a-z]{2}([-])?([A-Za-z]{2})?$'
+              - 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'
+          - label: Email
+            name: email
+            widget: string
+          - label: Phone
+            name: phone
+            widget: string
+          - label: Codice Fiscale
+            name: cod_fiscale
+            widget: string
+          - label: Partita Iva
+            name: p_iva
+            widget: string
+          - label: "Sitemap"
+            name: "sitemap"
+            widget: "list"
+            required: false
+            field:
+              label: "Item"
+              name: "item"
+              widget: "object"
+              required: false
+              fields:
+                - label: Name
+                  name: name
+                  widget: string
+                  required: false
+                - label: Url
+                  name: url
+                  widget: string
+                  required: false
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            required: false
+            field:
+              label: "Item"
+              name: "item"
+              widget: "object"
+              required: false
+              fields:
+                - label: Name
+                  name: name
+                  widget: string
+                  required: false
+                - label: Url
+                  name: url
+                  widget: string
+                  required: false
   # - name: 'blog'
   #   label: 'Blog'
   #   folder: 'assets/content/blog'
@@ -83,6 +127,7 @@ collections:
       - label: "Metadata"
         name: "metadata"
         widget: "object"
+        summary: '{{fields.title}}'
         required: false
         fields:
           - { label: "Title", name: "title", widget: "string", required: false}
