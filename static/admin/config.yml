@@ -127,7 +127,6 @@ collections:
       - label: "Metadata"
         name: "metadata"
         widget: "object"
-        summary: '{{fields.title}}'
         required: false
         fields:
           - { label: "Title", name: "title", widget: "string", required: false}
@@ -144,7 +143,7 @@ collections:
         name: "cover"
         widget: "object"
         required: false
-        summary: '{{fields.title}}: {{fields.image}}'
+        # summary: '{{fields.title}}: {{fields.image}}'
         fields:
           - { label: "Title", name: "title", widget: "string", required: false}
           - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
@@ -157,7 +156,7 @@ collections:
         name: "video"
         widget: "object"
         required: false
-        summary: '{{fields.type}}: {{fields.id}}'
+        # summary: '{{fields.type}}: {{fields.id}}'
         fields:
           - label: "Type"
             name: "type"
