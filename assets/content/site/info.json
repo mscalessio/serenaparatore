@@ -34,25 +34,11 @@
   "sitemap": [
     {
       "name": "Works",
-      "url": "/works",
-      "item": {
-        "name": "Home",
-        "url": "/"
-      }
+      "url": "/works"
     },
     {
       "name": "About",
-      "url": "/about",
-      "item": {
-        "name": "Works",
-        "url": "/works"
-      }
-    },
-    {
-      "item": {
-        "name": "About",
-        "url": "/about"
-      }
+      "url": "/about"
     }
   ],
   "email": "serena.paratore@gmail.com",

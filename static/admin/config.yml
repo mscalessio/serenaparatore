@@ -8,12 +8,12 @@ public_folder: /images
 
 locale: 'it'
 
-# media_library:
-#   name: cloudinary
-#   # output_filename_only: true
-#   config:
-#     cloud_name: succimas
-#     api_key: 767197248277585
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: succimas
+    api_key: 767197248277585
 
 collections:
   - label: 'Settings'
@@ -52,42 +52,33 @@ collections:
           - label: Partita Iva
             name: p_iva
             widget: string
-          - label: "Sitemap"
-            name: "sitemap"
-            widget: "list"
+          - label: 'Sitemap'
+            name: 'sitemap'
+            widget: 'list'
             required: false
-            field:
-              label: "Item"
-              name: "item"
-              widget: "object"
-              required: false
-              fields:
-                - label: Name
-                  name: name
-                  widget: string
-                  required: false
-                - label: Url
-                  name: url
-                  widget: string
-                  required: false
-          - label: "Social Links"
-            name: "socials"
-            widget: "list"
+            fields:
+              - label: Name
+                name: name
+                widget: string
+                required: false
+              - label: Url
+                name: url
+                widget: string
+                required: false
+          - label: 'Social Links'
+            name: 'socials'
+            widget: 'list'
             required: false
-            field:
-              label: "Item"
-              name: "item"
-              widget: "object"
-              required: false
-              fields:
-                - label: Name
-                  name: name
-                  widget: string
-                  required: false
-                - label: Url
-                  name: url
-                  widget: string
-                  required: false
+            fields:
+              - label: Name
+                name: name
+                widget: string
+                required: false
+              - label: Url
+                name: url
+                widget: string
+                required: false
+
   # - name: 'blog'
   #   label: 'Blog'
   #   folder: 'assets/content/blog'
@@ -111,96 +102,144 @@ collections:
     slug: '{{project_type}}-{{slug}}'
     preview_path: 'work/{{slug}}'
     fields:
-      - { label: "Featured", name: "featured", widget: "boolean", default: false }
-      - label: "Project Type"
-        name: "project_type"
-        widget: "select"
-        default: "animation"
+      - {
+          label: 'Featured',
+          name: 'featured',
+          widget: 'boolean',
+          default: false,
+        }
+      - label: 'Project Type'
+        name: 'project_type'
+        widget: 'select'
+        default: 'animation'
         options:
-          - { label: "Animation", value: "animation" }
-          - { label: "Photo", value: "photo" }
-          - { label: "Reel", value: "reel" }
-          - { label: "Story", value: "story" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown", required: false }
-      - label: "Metadata"
-        name: "metadata"
-        widget: "object"
+          - { label: 'Animation', value: 'animation' }
+          - { label: 'Photo', value: 'photo' }
+          - { label: 'Reel', value: 'reel' }
+          - { label: 'Story', value: 'story' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'markdown',
+          required: false,
+        }
+      - label: 'Metadata'
+        name: 'metadata'
+        widget: 'object'
         required: false
         fields:
-          - { label: "Title", name: "title", widget: "string", required: false}
-          - { label: "Description", name: "description", widget: "string", required: false }
-      - label: "Extras"
-        name: "extras"
-        widget: "list"
+          - { label: 'Title', name: 'title', widget: 'string', required: false }
+          - {
+              label: 'Description',
+              name: 'description',
+              widget: 'string',
+              required: false,
+            }
+      - label: 'Extras'
+        name: 'extras'
+        widget: 'list'
         minimize_collapsed: true
         required: false
         max: 3
         min: 1
-        field: { label: "Column", name: "column", widget: "markdown", required: false }
-      - label: "Cover"
-        name: "cover"
-        widget: "object"
+        field:
+          {
+            label: 'Column',
+            name: 'column',
+            widget: 'markdown',
+            required: false,
+          }
+      - label: 'Cover'
+        name: 'cover'
+        widget: 'object'
         required: false
         # summary: '{{fields.title}}: {{fields.image}}'
         fields:
-          - { label: "Title", name: "title", widget: "string", required: false}
-          - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-          - label: "Image"
-            name: "image"
-            widget: "image"
+          - { label: 'Title', name: 'title', widget: 'string', required: false }
+          - {
+              label: 'Subtitle',
+              name: 'subtitle',
+              widget: 'string',
+              required: false,
+            }
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
             required: false
             allow_multiple: false
-      - label: "Video"
-        name: "video"
-        widget: "object"
+      - label: 'Video'
+        name: 'video'
+        widget: 'object'
         required: false
         # summary: '{{fields.type}}: {{fields.id}}'
         fields:
-          - label: "Type"
-            name: "type"
-            widget: "select"
-            default: "vimeo"
+          - label: 'Type'
+            name: 'type'
+            widget: 'select'
+            default: 'vimeo'
             required: false
             options:
-              - { label: "Vimeo", value: "vimeo" }
-          - { label: "Title", name: "title", widget: "string", required: false}
-          - { label: "Cover", name: "cover", widget: "image", default: false}
-          - { label: "Url", name: "url", widget: "string", required: false}
-          - { label: "ID", name: "id", widget: "string", required: false}
-      - label: "Gallery"
-        name: "gallery"
-        widget: "object"
+              - { label: 'Vimeo', value: 'vimeo' }
+          - { label: 'Title', name: 'title', widget: 'string', required: false }
+          - { label: 'Cover', name: 'cover', widget: 'image', default: false }
+          - { label: 'Url', name: 'url', widget: 'string', required: false }
+          - { label: 'ID', name: 'id', widget: 'string', required: false }
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'object'
         required: false
         fields:
-          - label: "Grid Columns"
-            name: "columns"
-            widget: "number"
+          - label: 'Grid Columns'
+            name: 'columns'
+            widget: 'number'
             default: 2
-            value_type: "int"
+            value_type: 'int'
             min: 1
             max: 6
             step: 1
-          - label: "Items"
-            name: "items"
-            widget: "list"
+          - label: 'Items'
+            name: 'items'
+            widget: 'list'
             required: false
-            field:
-              label: "Item"
-              name: "item"
-              widget: "object"
-              required: false
-              fields:
-                - { label: "Title", name: "title", widget: "string", required: false}
-                - { label: "Alt Text", name: "alt", widget: "string", required: false}
-                - { label: "Fullwidth", name: "fullwidth", widget: "boolean", default: false }
-                - { label: "Image", name: "image", widget: "image", default: false}
-      - label: "Credits"
-        name: "credits"
-        widget: "list"
+            fields:
+              - {
+                  label: 'Title',
+                  name: 'title',
+                  widget: 'string',
+                  required: false,
+                }
+              - {
+                  label: 'Alt Text',
+                  name: 'alt',
+                  widget: 'string',
+                  required: false,
+                }
+              - {
+                  label: 'Fullwidth',
+                  name: 'fullwidth',
+                  widget: 'boolean',
+                  default: false,
+                }
+              - {
+                  label: 'Image',
+                  name: 'image',
+                  widget: 'image',
+                  default: false,
+                  media_folder: '/static/images/work',
+                }
+      - label: 'Credits'
+        name: 'credits'
+        widget: 'list'
         minimize_collapsed: true
         required: false
         max: 3
         min: 1
-        field: { label: "Column", name: "column", widget: "markdown", required: false }
+        field:
+          {
+            label: 'Column',
+            name: 'column',
+            widget: 'markdown',
+            required: false,
+          }
