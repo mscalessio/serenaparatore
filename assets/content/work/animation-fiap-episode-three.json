@@ -1,0 +1,84 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**Year:**\\\n2019",
+    "**Client:**\\\nFIAP"
+  ],
+  "featured": false,
+  "date": "2019-08-17T15:22:52.520Z",
+  "metadata": {
+    "title": "FIAIP",
+    "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell."
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": true,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/img_20181217_130450_bokeh.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/mercedes-benz-full.jpg"
+      },
+      {
+        "title": "",
+        "alt": "",
+        "fullwidth": false,
+        "image": "/images/fiap-episode-three.jpg"
+      }
+    ]
+  },
+  "cover": {
+    "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
+    "subtitle": "FIAIP and \"do-it-yourself\" negotiations.",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/cover_o1nj3k.png"
+  },
+  "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
+  "credits": [
+    "**Direction:**\\\nLorenzo Levrero\\\n\\\n**Executive Producer:**\\\nDiego Pizziconi\\\n\\\n**Illustration:**\\\nGiacomo D'Ancona\\\nGiulia Manna\\\n**Modeling:**\\\nGiovanni Mauro\\\nGiacomo Balma\\\n**Rigging:**\\\nGabriele Pastè\\\n**Design, animation & lighting:**\\\nDiletta Scaruffi",
+    "**BCube:**\\\n**Account Executive:**\\\nGiulia Stramazzo\\\n**Executive Creative Director:**\\\nAlessandro Orlandi\\\nAndrea Stanich\\\n**Senior Copywriter:**\\\nAlessandro Miasi\\\n**Senior Art Director:**\\\nGiacomo Piloni\\\n**Strategy Director:**\\\nAlessandro Guarino\\\n**Social Media Manager:**\\\nAlessandro Saraceno"
+  ],
+  "video": {
+    "type": "vimeo",
+    "title": "Mercedes-Benz Italia | Social Drive Experience",
+    "cover": "/images/fiap-episode-three.jpg",
+    "url": "https://vimeo.com/315487517",
+    "id": "315487517"
+  },
+  "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell, rent or buy a house without a real estate agent.\\\nAre you sure you want to risk?\\\nStay tuned.."
+}
