@@ -1,0 +1,51 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**YEAR:**\\\n2016",
+    "**AGENCY:**\\\n19Novanta \n\n**CLIENT:**\\\nCinecittà"
+  ],
+  "featured": true,
+  "date": "2016-07-16T11:47:10.840Z",
+  "metadata": {
+    "title": "Test cms",
+    "description": "test cms test cms"
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/gallery-1_atwk1r.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627546/sp/static/images/work/1/gallery-2_cqheuv.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627536/sp/static/images/work/1/gallery-3_s81zgk.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/gallery-4_meo1bf.jpg"
+      }
+    ]
+  },
+  "cover": {
+    "title": "TEST",
+    "subtitle": "CMS",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/cover_o1nj3k.png"
+  },
+  "title": "TEST WORK",
+  "credits": [
+    "**CREATIVE DIRECTOR:**\\\nBruno Capezzuoli\\\n**ART DIRECTOR:**\\\nSerena Paratore \\\n**MOTION DESIGNER:**\\\nSerena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/gallery-4_meo1bf.jpg",
+    "title": "test",
+    "id": "142138521",
+    "url": "https://vimeo.com/142138521"
+  },
+  "description": "**TEST WORK**\n\ndas auto"
+}
