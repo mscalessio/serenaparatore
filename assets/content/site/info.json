@@ -1,22 +1,6 @@
 {
-  "name": "Serena Paratore - Motion Designer",
-  "description": "I am a freelance motion designer based in Rome.",
-  "lang": "it-IT",
-  "address": "Via Alessandro Minuziano 70/B, Rome - Italy",
-  "email": "serena.paratore@gmail.com",
-  "phone": "+393929002503",
   "cod_fiscale": "PRTSRN91P44H501B",
   "p_iva": "13470581003",
-  "sitemap": [
-    {
-      "name": "Works",
-      "url": "/works"
-    },
-    {
-      "name": "About",
-      "url": "/about"
-    }
-  ],
   "socials": [
     {
       "name": "Vimeo",
@@ -42,5 +26,35 @@
       "name": "Behance",
       "url": "https://www.behance.net/serenaparatore"
     }
-  ]
+  ],
+  "name": "Serena Paratore - Motion Designer",
+  "phone": "+393929002503",
+  "lang": "it-IT",
+  "address": "Via Alessandro Minuziano 70/B, Rome - Italy",
+  "sitemap": [
+    {
+      "name": "Works",
+      "url": "/works",
+      "item": {
+        "name": "Home",
+        "url": "/"
+      }
+    },
+    {
+      "name": "About",
+      "url": "/about",
+      "item": {
+        "name": "Works",
+        "url": "/works"
+      }
+    },
+    {
+      "item": {
+        "name": "About",
+        "url": "/about"
+      }
+    }
+  ],
+  "email": "serena.paratore@gmail.com",
+  "description": "I am a freelance motion designer based in Rome."
 }
