@@ -10,7 +10,6 @@ locale: 'it'
 
 media_library:
   name: cloudinary
-  output_filename_only: true
   config:
     cloud_name: succimas
     api_key: 767197248277585
@@ -94,13 +93,15 @@ collections:
   #     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'works'
     # identifier_field: name
-    label: 'works'
+    label: 'Works'
     label_singular: 'Work'
     folder: 'assets/content/work'
     create: true
     format: 'json'
     slug: '{{project_type}}-{{slug}}'
     preview_path: 'work/{{slug}}'
+    editor:
+      preview: false
     fields:
       - {
           label: 'Featured',
