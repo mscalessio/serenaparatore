@@ -77,22 +77,20 @@ collections:
                 name: url
                 widget: string
                 required: false
-
-  # - name: 'blog'
-  #   label: 'Blog'
-  #   folder: 'assets/content/blog'
-  #   format: 'json'
-  #   create: true
-  #   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-  #   # editor:
-  #   #   preview: false
-  #   fields:
-  #     - { label: 'Title', name: 'title', widget: 'string' }
-  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-  #     - { label: 'Description', name: 'description', widget: 'string' }
-  #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'assets/content/blog'
+    format: 'json'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'works'
-    # identifier_field: name
     label: 'Works'
     label_singular: 'Work'
     folder: 'assets/content/work'
@@ -156,7 +154,6 @@ collections:
         name: 'cover'
         widget: 'object'
         required: false
-        # summary: '{{fields.title}}: {{fields.image}}'
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: false }
           - {
@@ -165,6 +162,21 @@ collections:
               widget: 'string',
               required: false,
             }
+          - label: 'Text Color'
+            name: 'text_color'
+            widget: 'select'
+            default: 'black'
+            options:
+              - { label: 'Black', value: 'black' }
+              - { label: 'White', value: 'white' }
+              - { label: 'Gray', value: 'gray' }
+              - { label: 'Red', value: 'red' }
+              - { label: 'Yellow', value: 'yellow' }
+              - { label: 'Green', value: 'green' }
+              - { label: 'Blue', value: 'blue' }
+              - { label: 'Indigo', value: 'indigo' }
+              - { label: 'Purple', value: 'purple' }
+              - { label: 'Pink', value: 'pink' }
           - label: 'Image'
             name: 'image'
             widget: 'image'
@@ -174,7 +186,6 @@ collections:
         name: 'video'
         widget: 'object'
         required: false
-        # summary: '{{fields.type}}: {{fields.id}}'
         fields:
           - label: 'Type'
             name: 'type'
@@ -244,3 +255,50 @@ collections:
             widget: 'markdown',
             required: false,
           }
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'About Page'
+        name: 'about'
+        format: 'json'
+        file: 'assets/content/about.json'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+            required: false
+          - { label: Intro, name: intro, widget: markdown, required: false}
+          - label: 'Cover'
+            name: 'cover'
+            widget: 'object'
+            required: false
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false }
+              - {
+                  label: 'Subtitle',
+                  name: 'subtitle',
+                  widget: 'string',
+                  required: false,
+                }
+              - label: 'Text Color'
+                name: 'text_color'
+                widget: 'select'
+                default: 'black'
+                options:
+                  - { label: 'Black', value: 'black' }
+                  - { label: 'White', value: 'white' }
+                  - { label: 'Gray', value: 'gray' }
+                  - { label: 'Red', value: 'red' }
+                  - { label: 'Yellow', value: 'yellow' }
+                  - { label: 'Green', value: 'green' }
+                  - { label: 'Blue', value: 'blue' }
+                  - { label: 'Indigo', value: 'indigo' }
+                  - { label: 'Purple', value: 'purple' }
+                  - { label: 'Pink', value: 'pink' }
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+                required: false
+                allow_multiple: false
+                - label: 'Metadata'

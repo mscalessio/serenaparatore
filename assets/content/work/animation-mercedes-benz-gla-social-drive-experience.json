@@ -12,6 +12,7 @@
   "cover": {
     "title": "Mercedes-Benz | GLA Social Drive Experience",
     "subtitle": "Opening credits of the new Mercedes Benz initiative.",
+    "text_color": "white",
     "image": "/images/mercedes-benz-full.jpg"
   },
   "gallery": {

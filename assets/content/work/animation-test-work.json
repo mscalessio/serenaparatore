@@ -34,6 +34,7 @@
   "cover": {
     "title": "TEST",
     "subtitle": "CMS",
+    "text_color": "black",
     "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/cover_o1nj3k.png"
   },
   "title": "TEST WORK",

@@ -9,17 +9,19 @@
         <div class="sm:w-2/3 lg:w-1/2">
           <h2
             v-if="work.cover.title"
-            class="text-xl md:text-4xl font-bold mb-2 text-white"
+            class="text-xl md:text-4xl font-bold mb-2"
+            :class="coverTextClasses"
           >
             {{ work.cover.title }}
           </h2>
           <h3
             v-if="work.cover.subtitle"
-            class="text-lg md:text-2xl mb-2 text-white"
+            class="text-lg md:text-2xl mb-2"
+            :class="coverTextClasses"
           >
             {{ work.cover.subtitle }}
           </h3>
-          <h4 class="md:text-2xl font-thin mb-8 text-white">
+          <h4 class="md:text-2xl font-thin mb-8" :class="coverTextClasses">
             {{ work.project_type }}
           </h4>
         </div>
@@ -203,6 +205,24 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    coverTextClasses() {
+      const textColor = this.work.cover.text_color
+
+      return {
+        'text-black': textColor === 'black',
+        'text-white': textColor === 'white',
+        'text-gray-500': textColor === 'gray',
+        'text-red-600': textColor === 'red',
+        'text-yellow-300': textColor === 'yellow',
+        'text-green-400': textColor === 'green',
+        'text-blue-500': textColor === 'blue',
+        'text-indigo-700': textColor === 'indigo',
+        'text-purple-600': textColor === 'purple',
+        'text-pink-500': textColor === 'pink',
+      }
+    },
   },
 }
 </script>
