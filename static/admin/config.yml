@@ -301,4 +301,3 @@ collections:
                 widget: 'image'
                 required: false
                 allow_multiple: false
-                - label: 'Metadata'
