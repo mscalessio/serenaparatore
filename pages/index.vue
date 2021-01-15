@@ -49,12 +49,11 @@ export default {
       '@context': 'https://schema.org',
       '@graph': [
         {
+          '@context': 'https://schema.org',
           '@type': 'Organization',
-          '@id': `${this.$config.baseURL}/#organization`,
           url: `${this.$config.baseURL}/`,
           name: this.site.name,
           logo: this.site.logo,
-          sameAs: [],
         },
         {
           '@type': 'WebSite',
@@ -100,11 +99,11 @@ export default {
     return {
       script: [
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
-        {
-          hid: 'jsonLd',
-          innerHTML: JSON.stringify(jsonLd, null, ''),
-          type: 'application/ld+json',
-        },
+        // {
+        //   hid: 'jsonLd',
+        //   innerHTML: JSON.stringify(jsonLd, null, ''),
+        //   type: 'application/ld+json',
+        // },
       ],
     }
   },

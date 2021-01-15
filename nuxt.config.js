@@ -26,6 +26,43 @@ export default {
           'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap',
       },
     ],
+    script: [
+      {
+        hid: 'organization',
+        innerHTML: JSON.stringify(
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            url: process.env.BASE_URL || 'https://serenaparatore.com',
+            name: this.site.name,
+            logo: this.site.logo,
+          },
+          null,
+          ''
+        ),
+        type: 'application/ld+json',
+      },
+      {
+        hid: 'website',
+        innerHTML: JSON.stringify(
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            url: process.env.BASE_URL || 'https://serenaparatore.com',
+            name: this.site.name,
+            publisher: {
+              '@type': 'Person',
+              name: 'Serena Paratore',
+              jobTitle: 'Motion Designer',
+              url: process.env.BASE_URL || 'https://serenaparatore.com',
+            },
+          },
+          null,
+          ''
+        ),
+        type: 'application/ld+json',
+      },
+    ],
     bodyAttrs: {
       class: 'antialiased',
     },
@@ -84,12 +121,12 @@ export default {
 
   // Google-Anbalytics module configuration (https://google-analytics.nuxtjs.org/options)
   googleAnalytics: {
-    id: 'UA-XXX-X',
+    id: siteInfo.googleAnalytics || 'UA-XXX-X',
   },
 
   // Sitemap module configuration (https://google-analytics.nuxtjs.org/options)
   sitemap: {
-    hostname: 'https://serenaparatore.com',
+    hostname: process.env.BASE_URL || 'https://serenaparatore.com',
     routes: async () => {
       const { $content } = require('@nuxt/content')
       const files = await $content('work').only(['slug']).fetch()
