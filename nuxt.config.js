@@ -53,6 +53,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-analytics.nuxtjs.org/
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -64,6 +66,8 @@ export default {
     '@nuxt/image',
     '@nuxtjs/markdownit',
     'portal-vue/nuxt',
+    // https://sitemap.nuxtjs.org/
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -74,8 +78,23 @@ export default {
     dir: 'assets/content',
   },
 
-  // Content module configuration (https://image.nuxtjs.org/options)
+  // Image module configuration (https://image.nuxtjs.org/options)
   image: {},
+
+  // Google-Anbalytics module configuration (https://google-analytics.nuxtjs.org/options)
+  googleAnalytics: {
+    id: 'UA-XXX-X',
+  },
+
+  // Sitemap module configuration (https://google-analytics.nuxtjs.org/options)
+  sitemap: {
+    hostname: 'https://serenaparatore.com',
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const files = await $content('work').only(['slug']).fetch()
+      return files.map((file) => `/work/${file.slug}`)
+    },
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
