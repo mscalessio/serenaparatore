@@ -55,6 +55,10 @@ collections:
           - label: Partita Iva
             name: p_iva
             widget: string
+          - label: Google Analytics ID
+            name: analytics_id
+            widget: string
+            required: false
           - label: 'Sitemap'
             name: 'sitemap'
             widget: 'list'

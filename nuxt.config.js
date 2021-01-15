@@ -34,8 +34,8 @@ export default {
             '@context': 'https://schema.org',
             '@type': 'Organization',
             url: process.env.BASE_URL || 'https://serenaparatore.com',
-            name: this.site.name,
-            logo: this.site.logo,
+            name: siteInfo.name,
+            logo: siteInfo.logo,
           },
           null,
           ''
@@ -49,7 +49,7 @@ export default {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             url: process.env.BASE_URL || 'https://serenaparatore.com',
-            name: this.site.name,
+            name: siteInfo.name,
             publisher: {
               '@type': 'Person',
               name: 'Serena Paratore',
@@ -121,7 +121,7 @@ export default {
 
   // Google-Anbalytics module configuration (https://google-analytics.nuxtjs.org/options)
   googleAnalytics: {
-    id: siteInfo.googleAnalytics || 'UA-XXX-X',
+    id: siteInfo.analytics_id || 'UA-XXX-X',
   },
 
   // Sitemap module configuration (https://google-analytics.nuxtjs.org/options)
