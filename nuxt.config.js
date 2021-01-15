@@ -29,6 +29,7 @@ export default {
     bodyAttrs: {
       class: 'antialiased',
     },
+    __dangerouslyDisableSanitizers: ['script'],
   },
 
   generate: {
@@ -112,5 +113,9 @@ export default {
 
   markdownit: {
     injected: true,
+  },
+
+  publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL || 'https://serenaparatore.com',
   },
 }

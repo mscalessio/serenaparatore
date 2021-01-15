@@ -25,7 +25,10 @@
         </div>
       </div>
     </section>
-    <article class="my-8" v-html="$md.render(page.intro)" />
+    <article
+      class="px-4 md:w-2/3 md:mx-auto my-8"
+      v-html="$md.render(page.intro)"
+    />
   </main>
 </template>
 
