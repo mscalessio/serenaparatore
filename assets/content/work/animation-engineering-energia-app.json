@@ -1,0 +1,69 @@
+{
+  "project_type": "animation",
+  "agency": "Bitglue",
+  "client": "Engineering",
+  "extras": [
+    "**YEAR:**\\\n2016",
+    "**AGENCY:**\\\nBitglue",
+    "**CLIENT:**\\\nEngineering"
+  ],
+  "featured": true,
+  "date": "2016-07-20T11:47:10.840Z",
+  "metadata": {
+    "title": "Engineering| EnergIA App",
+    "description": "Digital version of magazine's article"
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633353/sp/static/images/work/3/gallery-1_cbo9w7.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633466/sp/static/images/work/3/gallery-2_mevuut.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633535/sp/static/images/work/3/gallery-3_ayw7x6.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633608/sp/static/images/work/3/gallery-4_w5x0j5.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633659/sp/static/images/work/3/gallery-5_kpe339.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633713/sp/static/images/work/3/gallery-6_kz0uoi.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633762/sp/static/images/work/3/gallery-7_hsr4tb.png"
+      }
+
+    ]
+  },
+  "cover": {
+    "title": "Engineering| EnergIA App",
+    "subtitle": "Home EnerglA is the new project firmed Engineering for an App that allows you to remotely control our home appliances.",
+    "text_color": "white",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610633304/sp/static/images/work/3/cover_kbvkbi.png"
+  },
+  "title": "Engineering| EnergIA App",
+  "credits": [
+    "**ART DIRECTOR:** Serena Paratore\\\nILLUSTRATION: Serena Paratore",
+    "**CREATIVE DIRECTOR:** Miriam Cinaglia\\\nMOTION DESIGNER: Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610633304/sp/static/images/work/3/cover_kbvkbi.png",
+    "title": "",
+    "id": "191543935",
+    "url": "https://vimeo.com/191543935"
+  },
+  "description": "Video presentation for Home EnergIA. Home EnergIA is the new project firmed Engineering for an App that allows you to remotely control our home appliances, thanks to a special sensor inside the house. Relax, everything is under control. The client has asked me to express all this through a domestic environment illustration, with people living their daily lives with the app that makes your life easier."
+}

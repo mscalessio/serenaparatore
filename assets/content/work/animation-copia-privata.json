@@ -1,14 +1,17 @@
 {
   "project_type": "animation",
+  "agency": "19Novanta",
+  "client": "Cinecittà",
   "extras": [
     "**YEAR:**\\\n2016",
-    "**AGENCY:**\\\n19Novanta \n\n**CLIENT:**\\\nCinecittà"
+    "**AGENCY:**\\\n19Novanta",
+    "**CLIENT:**\\\nCinecittà"
   ],
   "featured": true,
   "date": "2016-07-16T11:47:10.840Z",
   "metadata": {
-    "title": "Test cms",
-    "description": "test cms test cms"
+    "title": "8½ ARTICLE | Copia Privata",
+    "description": "Digital version of magazine's article"
   },
   "gallery": {
     "columns": 3,
@@ -32,14 +35,15 @@
     ]
   },
   "cover": {
-    "title": "TEST",
-    "subtitle": "CMS",
+    "title": "8½ ARTICLE | Copia Privata",
+    "subtitle": "Digital version of magazine's article",
     "text_color": "black",
     "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/cover_o1nj3k.png"
   },
-  "title": "TEST WORK",
+  "title": "Copia Privata",
   "credits": [
-    "**CREATIVE DIRECTOR:**\\\nBruno Capezzuoli\\\n**ART DIRECTOR:**\\\nSerena Paratore \\\n**MOTION DESIGNER:**\\\nSerena Paratore"
+    "**CREATIVE DIRECTOR:**\\\nBruno Capezzuoli",
+    "**ART DIRECTOR:**\\\nSerena Paratore \\\n**MOTION DESIGNER:**\\\nSerena Paratore"
   ],
   "video": {
     "type": "vimeo",
@@ -48,5 +52,5 @@
     "id": "142138521",
     "url": "https://vimeo.com/142138521"
   },
-  "description": "**TEST WORK**\n\ndas auto"
+  "description": "8 ½ is a magazine of film criticism.\n\nI realized the article's illustration (paper version) concerning the copyright in Italy, and I took care of the animation of this illustration for the digital version of the magazine."
 }

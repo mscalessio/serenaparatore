@@ -124,7 +124,6 @@ collections:
           - { label: 'Photo', value: 'photo' }
           - { label: 'Reel', value: 'reel' }
           - { label: 'Story', value: 'story' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
           label: 'Description',
@@ -132,6 +131,9 @@ collections:
           widget: 'markdown',
           required: false,
         }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Agency', name: 'agency', widget: 'string' }
+      - { label: 'Client', name: 'client', widget: 'string' }
       - label: 'Metadata'
         name: 'metadata'
         widget: 'object'
