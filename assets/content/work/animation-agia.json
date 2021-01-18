@@ -1,0 +1,21 @@
+{
+  "project_type": "animation",
+  "agency": "Personal",
+  "client": "Personal",
+  "featured": false,
+  "date": "2020-06-12T15:54:18.243Z",
+  "gallery": {
+    "columns": 2,
+    "items": []
+  },
+  "cover": {
+    "text_color": "black",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610648712/sp/static/images/work/15/thumb_hlw422.png"
+  },
+  "title": "AGIA",
+  "video": {
+    "type": "vimeo",
+    "cover": false
+  },
+  "description": "Work in progress"
+}
