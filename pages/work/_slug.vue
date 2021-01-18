@@ -68,7 +68,7 @@
           class="absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2 origin-center w-auto"
         >
           <button
-            class="inline-flex items-center px-8 py-4 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:border-purple-700 active:bg-purple-700 transition ease-in-out duration-150"
+            class="inline-flex items-center px-8 py-4 border border-transparent text-base leading-6 font-medium text-white bg-purple-600 hover:bg-purple-500 focus:border-purple-700 active:bg-purple-700 transition ease-in-out duration-150"
             type="button"
             @click.prevent="showVideo = true"
           >
@@ -115,7 +115,7 @@
             :src="item"
             :class="[itemFullClass(index)]"
           /> -->
-          <figure class="pt-video">
+          <figure class="pt-full">
             <img
               class="absolute inset-0 w-full h-full object-cover bg-gray-100"
               :class="{ 'col-span-full': item.fullwidth }"

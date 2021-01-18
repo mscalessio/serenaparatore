@@ -44,9 +44,10 @@
         </div>
         <div class="flex items-center">
           <div class="hidden sm:block sm:ml-6">
-            <div class="flex space-x-4">
+            <div class="flex">
               <nuxt-link class="link" to="/works">Works</nuxt-link>
               <nuxt-link class="link" to="/about">About</nuxt-link>
+              <nuxt-link class="link" to="#footer">Contact</nuxt-link>
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@
     </div>
 
     <div v-if="open" class="sm:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1">
+      <div class="px-2 pt-2 pb-3 space-y-2">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <nuxt-link to="/works" class="mobile-link">Works</nuxt-link>
         <nuxt-link to="/about" class="mobile-link">About</nuxt-link>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-2 pb-0 mt-8">
+  <footer id="footer" class="p-2 pb-0 mt-8">
     <div class="container mx-auto">
       <div class="block w-full py-4"><Logo /></div>
       <div class="md:flex py-4 space-y-4 sm:space-y-0">

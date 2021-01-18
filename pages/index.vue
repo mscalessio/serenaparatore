@@ -1,28 +1,20 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">serenaparatore</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <section class="bg-gray-200 py-8">
+    <div class="container mx-auto">
+      <p class="text-2xl font-semibold">They have already trusted us.</p>
+      <Gallery :columns="6">
+        <GalleryItem>
+          <LogoTim />
+        </GalleryItem>
+        <GalleryItem>
+          <LogoMercedes />
+        </GalleryItem>
+        <GalleryItem>
+          <LogoPayback />
+        </GalleryItem>
+      </Gallery>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

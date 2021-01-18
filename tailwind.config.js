@@ -31,6 +31,11 @@ module.exports = {
       outline: '0 0 0 3px rgba(0, 86, 87,0.5)',
     },
   },
+  variants: {
+    extend: {
+      fontWeight: ['hover'],
+    },
+  },
   plugins: [],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

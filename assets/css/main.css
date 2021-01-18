@@ -4,11 +4,15 @@
   }
 
   .link {
-    @apply cursor-pointer py-2 border-b-4 border-transparent hover:text-purple-600 hover:border-purple-600;
+    @apply w-24 text-center cursor-pointer py-2 px-2;
+  }
+
+  .link:not(.nuxt-link-exact-active) {
+    @apply hover:text-purple-600 hover:font-bold;
   }
 
   .link.nuxt-link-exact-active {
-    @apply text-purple-600 border-purple-600;
+    @apply text-purple-600 font-bold;
   }
 
   .link.nuxt-link-exact-active {
