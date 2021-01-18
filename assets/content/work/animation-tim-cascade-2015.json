@@ -1,0 +1,67 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**YEAR:** 2015",
+    "**AGENCY:** The Brand Shop",
+    "**CLIENT:** Tim"
+  ],
+  "agency": "The Brand Shop",
+  "client": "Tim",
+  "featured": false,
+  "date": "2015-07-16T13:32:28.999Z",
+  "metadata": {
+    "title": "Tim | Cascade 2015",
+    "description": "A report of activities they have done to engage employees and making them partners of corporate business strategies."
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634204/sp/static/images/work/4/gallery-1_hsfftj.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634181/sp/static/images/work/4/gallery-2_zx9w9n.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634164/sp/static/images/work/4/gallery-3_ac7fy3.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634146/sp/static/images/work/4/gallery-4_bglrvs.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634129/sp/static/images/work/4/gallery-5_hyekni.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634106/sp/static/images/work/4/gallery-6_a6vcdu.png"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634094/sp/static/images/work/4/gallery-7_yljzo9.png"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "blue",
+    "title": "Tim | Cascade 2015",
+    "subtitle": "A report of activities they have done to engage employees and making them partners of corporate business strategies.",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610634219/sp/static/images/work/4/cover_hdkxzc.jpg"
+  },
+  "title": "Tim | Cascade 2015",
+  "credits": [
+    "**ART DIRECTOR:** Serena Paratore",
+    "**CREATIVE DIRECTOR:** Giulia Castiello\\\n**MOTION DESIGNER:** Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610634094/sp/static/images/work/4/gallery-7_yljzo9.png",
+    "url": "https://vimeo.com/151935112",
+    "id": "151935112"
+  },
+  "description": "Telecom Italia (currently TIM) wanted a video motion graphics, for use and internal dissemination and presentation; object with a report of activities they have done to engage employees and making them partners of corporate business strategies.\\\nMy role was to interpret this request, and the final effect was particularly emotional.\\\nI created the storyboard, I've illustrated the story and finally animated it."
+}
