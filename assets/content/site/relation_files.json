@@ -1,0 +1,66 @@
+{
+  "clients": [
+    {
+      "name": "Personal",
+      "slug": "personal"
+    },
+    {
+      "name": "Cinecittà",
+      "slug": "cinecitta"
+    },
+    {
+      "name": "Banco Fast Food",
+      "slug": "banco-fast-food"
+    },
+    {
+      "name": "Enel",
+      "slug": "enel"
+    },
+    {
+      "name": "Engineering",
+      "slug": "engineering"
+    },
+    {
+      "name": "FIAP",
+      "slug": "fiap"
+    },
+    {
+      "name": "Galatine",
+      "slug": "galatine"
+    }
+  ],
+  "agencies": [
+    {
+      "name": "Personal",
+      "slug": "personal"
+    },
+    {
+      "name": "19Novanta",
+      "slug": "19novanta"
+    },
+    {
+      "name": "SuperHumans",
+      "slug": "superhumans"
+    },
+    {
+      "name": "Luther Dsgn",
+      "slug": "luther-dsgn"
+    },
+    {
+      "name": "Bitglue",
+      "slug": "bitglue"
+    },
+    {
+      "name": "I Say Group",
+      "slug": "i-say-group"
+    },
+    {
+      "name": "Mosaicoon",
+      "slug": "mosaicoon"
+    },
+    {
+      "name": "Gruppo Roncaglia",
+      "slug": "gruppo-roncaglia"
+    }
+  ]
+}
