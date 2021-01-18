@@ -1,0 +1,55 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**YEAR:** 2017",
+    "**AGENCY:** 19Novanta",
+    "**CLIENT:** Cinecittà"
+  ],
+  "agency": "19Novanta",
+  "client": "Cinecittà",
+  "featured": false,
+  "date": "2017-01-01T14:44:30.815Z",
+  "metadata": {
+    "title": "8½ ARTICLE | Discussioni",
+    "description": "Digital version of magazine's article"
+  },
+  "gallery": {
+    "columns": 1,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645873/sp/static/images/work/6/gallery-1_ynvwb6.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645846/sp/static/images/work/6/gallery-2_ibiusc.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645821/sp/static/images/work/6/gallery-3_uqcdzl.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645798/sp/static/images/work/6/gallery-4_hk6scf.jpg"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "title": " 8½ ARTICLE | Discussioni",
+    "subtitle": "Digital version of magazine's article",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610645897/sp/static/images/work/6/cover_jyjjrf.png"
+  },
+  "title": "8½ ARTICLE | Discussioni",
+  "credits": [
+    "**CREATIVE DIRECTOR:** Bruno Capezzuoli",
+    "**ART DIRECTOR:** Serena Paratore \\\n**MOTION DESIGNER:** Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610645897/sp/static/images/work/6/cover_jyjjrf.png",
+    "url": "https://vimeo.com/141427546",
+    "id": "141427546"
+  },
+  "description": "8 ½ is a magazine of film criticism.\\\nI realized the article's illustration (paper version) concerning the copyright in Italy, and I took care of the animation of this illustration for the digital version of the magazine"
+}
