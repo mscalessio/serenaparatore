@@ -1,0 +1,51 @@
+{
+  "project_type": "animation",
+  "agency": "SuperHumans",
+  "client": "Banco Fast Food",
+  "featured": false,
+  "date": "2018-06-07T14:04:27.735Z",
+  "metadata": {
+    "title": "Banco Fast Food | Logo Story",
+    "description": "100% natural Fast Food based in Rome."
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646229/sp/static/images/work/8/gallery-1_gepoqg.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646203/sp/static/images/work/8/gallery-2_wsm1bx.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646178/sp/static/images/work/8/gallery-3_bs1l7u.png"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646155/sp/static/images/work/8/gallery-4_rqwuuu.png"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "subtitle": "100% natural Fast Food based in Rome.",
+    "title": "Banco Fast Food | Logo Story",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646254/sp/static/images/work/8/cover_jybgow.jpg"
+  },
+  "title": "Banco Fast Food | Logo Story",
+  "credits": [
+    "**CREATIVE DIRECTOR:** Pierluigi Riccio​\\\n**ART DIRECTOR:** Serena Paratore, Simone Mari\\\n**COPY:** Barbara Bigi",
+    "**DESIGNER:** Serena Paratore\\\n**MOTION DESIGNER:** Serena Paratore",
+    "Credits Photo: [www.bancofastfood.com](http://www.bancofastfood.com/)"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646155/sp/static/images/work/8/gallery-4_rqwuuu.png",
+    "url": "https://vimeo.com/224052904",
+    "id": "224052904"
+  },
+  "description": "Banco is an innovative bio fast food based in Rome. Its food is 100% natural.\n\nIts *greatest* strengths are: commodities of the territory, carefully selected producers, original recipes cooked by experienced chefs.\n\nYou can order burgers, rolls, noodles, salads, desserts and fresh fruit extracts.\n\nBanco, partner to Festival Trastevere Rione del Cinema (Rome) wanted to tell its nature through a logo story."
+}
