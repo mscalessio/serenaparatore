@@ -1,0 +1,21 @@
+{
+  "project_type": "animation",
+  "agency": "Personal",
+  "client": "Skipper",
+  "featured": false,
+  "date": "2020-07-24T15:55:45.724Z",
+  "gallery": {
+    "columns": 2,
+    "items": []
+  },
+  "cover": {
+    "text_color": "white",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610648762/sp/static/images/work/16/thumb_fmkhjj.png"
+  },
+  "title": "Skipper | \"SENZA\" Project",
+  "video": {
+    "type": "vimeo",
+    "cover": false
+  },
+  "description": "Work in progress"
+}
