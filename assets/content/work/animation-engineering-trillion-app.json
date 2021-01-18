@@ -1,0 +1,67 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**YEAR:** 2016",
+    "**AGENCY:** Bitglue",
+    "**CLIENT:** Engineering"
+  ],
+  "agency": "Bitglue",
+  "client": "Engineering",
+  "featured": false,
+  "date": "2017-02-08T14:40:02.306Z",
+  "metadata": {
+    "title": "Engineering| Trillion App",
+    "description": "Trillion proposes an innovative socio-technical platform to foster effective collaboration between citizens and law-enforcement agencies."
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634650/sp/static/images/work/5/gallery-1_qcblzo.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634616/sp/static/images/work/5/gallery-2_gxj3ri.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634682/sp/static/images/work/5/cover_wixaoj.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634586/sp/static/images/work/5/gallery-4_pcnwlt.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634560/sp/static/images/work/5/gallery-5_d2q327.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634535/sp/static/images/work/5/gallery-6_mrieds.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634507/sp/static/images/work/5/gallery-7_abxyh0.png"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "subtitle": "Trillion proposes an innovative socio-technical platform to foster effective collaboration between citizens and law-enforcement agencies.",
+    "title": "Engineering| Trillion App",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610634682/sp/static/images/work/5/cover_wixaoj.gif"
+  },
+  "title": "Engineering| Trillion App",
+  "credits": [
+    "**ART DIRECTOR:** Serena Paratore",
+    "**ILLUSTRATION:** Valentina Cherubini\\\n**CREATIVE DIRECTOR:** Alessandro Pandozy\\\n**MOTION DESIGNER:** Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610634507/sp/static/images/work/5/gallery-7_abxyh0.png",
+    "url": "https://vimeo.com/188911371",
+    "id": "188911371"
+  },
+  "description": "TRILLION proposes an innovative socio-technical platform to foster effective collaboration between citizens and law-enforcement agencies. To achieve this, TRILLION provides multiple channels for incident discovery, prediction, reporting and interaction. Citizens will have the choice of using existing social networks or directly reporting incidents via native mobile applications.\\\nThrough such reporting via the TRILLION platform, law-enforcement agencies will be able to detect incidents more efficiently, with information collected used to detect and respond to unfolding security situations in real time. To do this, the platform will employ a wide range of geo-location technologies, including those that enhance incident reporting in confined spaces, such as shopping malls, cinema complexes, event areas and stadiums."
+}
