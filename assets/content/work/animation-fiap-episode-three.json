@@ -1,9 +1,12 @@
 {
   "project_type": "animation",
   "extras": [
-    "**Year:**\\\n2019",
-    "**Client:**\\\nFIAP"
+    "**YEAR:** 2019",
+    "**AGENCY:** I Say Group",
+    "**CLIENT:** FIAP"
   ],
+  "agency": "I Say Group",
+  "client": "FIAIP | Federazione Italiana Agenti Immobiliari",
   "featured": false,
   "date": "2019-08-17T15:22:52.520Z",
   "metadata": {
@@ -14,71 +17,52 @@
     "columns": 3,
     "items": [
       {
-        "title": "",
-        "alt": "",
         "fullwidth": false,
-        "image": "/images/fiap-episode-three.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610647917/sp/static/images/work/12/gallery-1_b6m38i.png"
       },
       {
-        "title": "",
-        "alt": "",
         "fullwidth": false,
-        "image": "/images/img_20181217_130450_bokeh.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610647934/sp/static/images/work/12/gallery-2_pfdsus.png"
       },
       {
-        "title": "",
-        "alt": "",
         "fullwidth": false,
-        "image": "/images/fiap-episode-three.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610647952/sp/static/images/work/12/gallery-3_yoskbg.png"
       },
       {
-        "title": "",
-        "alt": "",
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610647971/sp/static/images/work/12/gallery-4_jvwkii.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610647999/sp/static/images/work/12/gallery-5_getqby.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648007/sp/static/images/work/12/gallery-6_grgews.png"
+      },
+      {
         "fullwidth": true,
-        "image": "/images/img_20181217_130450_bokeh.jpg"
-      },
-      {
-        "title": "",
-        "alt": "",
-        "fullwidth": false,
-        "image": "/images/fiap-episode-three.jpg"
-      },
-      {
-        "title": "",
-        "alt": "",
-        "fullwidth": false,
-        "image": "/images/img_20181217_130450_bokeh.jpg"
-      },
-      {
-        "title": "",
-        "alt": "",
-        "fullwidth": false,
-        "image": "/images/mercedes-benz-full.jpg"
-      },
-      {
-        "title": "",
-        "alt": "",
-        "fullwidth": false,
-        "image": "/images/fiap-episode-three.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648025/sp/static/images/work/12/gallery-7_pmfrpr.png"
       }
     ]
   },
   "cover": {
     "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
-    "subtitle": "FIAIP and \"do-it-yourself\" negotiations.",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/cover_o1nj3k.png"
+    "subtitle": "FIAIP and \"do-it-yourself\" negotiations. EPISODE ONE",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610647898/sp/static/images/work/12/cover_rnczuu.png",
+    "text_color": "white"
   },
-  "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
+  "title": "FIAIP - Do It Yourself",
   "credits": [
-    "**Direction:**\\\nLorenzo Levrero\\\n\\\n**Executive Producer:**\\\nDiego Pizziconi\\\n\\\n**Illustration:**\\\nGiacomo D'Ancona\\\nGiulia Manna\\\n**Modeling:**\\\nGiovanni Mauro\\\nGiacomo Balma\\\n**Rigging:**\\\nGabriele Pastè\\\n**Design, animation & lighting:**\\\nDiletta Scaruffi",
-    "**BCube:**\\\n**Account Executive:**\\\nGiulia Stramazzo\\\n**Executive Creative Director:**\\\nAlessandro Orlandi\\\nAndrea Stanich\\\n**Senior Copywriter:**\\\nAlessandro Miasi\\\n**Senior Art Director:**\\\nGiacomo Piloni\\\n**Strategy Director:**\\\nAlessandro Guarino\\\n**Social Media Manager:**\\\nAlessandro Saraceno"
+    "**ART DIRECTOR:** Alessandra Madeddu\\\n**COPY:** Eros Fioravanti",
+    "**ILLUSTRATION:** Serena Paratore\\\n**CREATIVE DIRECTOR:** Ralph Di Segni\\\n**MOTION DESIGNER:** Serena Paratore"
   ],
   "video": {
     "type": "vimeo",
-    "title": "Mercedes-Benz Italia | Social Drive Experience",
-    "cover": "/images/fiap-episode-three.jpg",
-    "url": "https://vimeo.com/315487517",
-    "id": "315487517"
+    "title": "",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610648043/sp/static/images/work/12/thumb_cdswes.png",
+    "url": "https://vimeo.com/315279296",
+    "id": "315279296"
   },
   "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell, rent or buy a house without a real estate agent.\\\nAre you sure you want to risk?\\\nStay tuned.."
 }
