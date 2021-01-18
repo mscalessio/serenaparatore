@@ -1,0 +1,50 @@
+{
+  "project_type": "animation",
+  "agency": "Gruppo Roncaglia",
+  "client": "Mercedes - Benz Italia",
+  "featured": false,
+  "date": "2018-03-01T14:53:14.900Z",
+  "metadata": {
+    "description": "Opening credits of the new Mercedes Benz initiative.",
+    "title": "Mercedes-Benz | GLA Social Drive Experience"
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646039/sp/static/images/work/7/gallery-1_c4lnin.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646002/sp/static/images/work/7/gallery-2_k8x4kg.jpg"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645982/sp/static/images/work/7/gallery-3_qcln3b.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645952/sp/static/images/work/7/gallery-4_llf8yy.jpg"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "title": "Mercedes-Benz | GLA Social Drive Experience",
+    "subtitle": "Opening credits of the new Mercedes Benz initiative.",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646052/sp/static/images/work/7/cover_ig7ey3.jpg"
+  },
+  "title": "Mercedes-Benz | GLA Social Drive Experience",
+  "credits": [
+    "**ART DIRECTOR:** Simone Macciocchi",
+    "**CREATIVE DIRECTOR:** Arturo Vittorioso\\\n**MOTION DESIGNER:** Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646052/sp/static/images/work/7/cover_ig7ey3.jpg",
+    "url": "https://vimeo.com/141401968",
+    "id": "141401968"
+  },
+  "description": "Mercedes - Benz Italia has launched an interesting initiative to discover to the Italian the new GLA.\\\nIt was possible to test the car to 21 people who later issued a short interview.\\\nThese 21 events were held in different days and locations in order to know the opinion of the people and with the intent to pass a really important day."
+}
