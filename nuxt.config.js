@@ -93,6 +93,7 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://google-analytics.nuxtjs.org/
     '@nuxtjs/google-analytics',
+    '@nuxtjs/moment',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -114,6 +115,17 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
     dir: 'assets/content',
+  },
+
+  moment: {
+    defaultLocale: 'it',
+    locales: ['it'],
+    defaultTimezone: 'Europe/Rome',
+    timezone: {
+      matchZones: /Europe\/(Rome|London|Paris|Athens)/,
+      startYear: 2000,
+      endYear: 2030,
+    },
   },
 
   // Image module configuration (https://image.nuxtjs.org/options)

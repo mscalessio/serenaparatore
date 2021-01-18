@@ -42,6 +42,7 @@
       },
       {
         "fullwidth": true,
+        "ratio": "video",
         "image": "https://res.cloudinary.com/succimas/image/upload/v1610648625/sp/static/images/work/14/gallery-7_c4mvn1.png"
       }
     ]
@@ -52,7 +53,7 @@
     "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
     "image": "https://res.cloudinary.com/succimas/image/upload/v1610648481/sp/static/images/work/14/cover_ybjdz0.png"
   },
-  "title": "FIAIP - Do It Yourself Ep.3",
+  "title": "FIAIP - Do It Yourself EP3",
   "credits": [
     "**ART DIRECTOR:** Alessandra Madeddu\\\n**COPY:** Eros Fioravanti",
     "**ILLUSTRATION:** Serena Paratore\\\n**CREATIVE DIRECTOR:** Ralph Di Segni\\\n**MOTION DESIGNER:** Serena Paratore"

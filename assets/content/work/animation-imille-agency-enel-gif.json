@@ -6,15 +6,11 @@
   "date": "2020-01-01T16:28:52.825Z",
   "gallery": {
     "columns": 2,
-    "items": [
-      {
-        "fullwidth": false,
-        "image": false
-      }
-    ]
+    "items": []
   },
   "cover": {
-    "text_color": "black"
+    "text_color": "black",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610647818/sp/static/images/work/10/thumb_ve21xj.gif"
   },
   "title": "iMille Agency - Enel GIF",
   "video": {

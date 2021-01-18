@@ -42,6 +42,7 @@
       },
       {
         "fullwidth": true,
+        "ratio": "video",
         "image": "https://res.cloudinary.com/succimas/image/upload/v1610648409/sp/static/images/work/13/gallery-7_jpkpir.png"
       }
     ]
@@ -52,7 +53,7 @@
     "subtitle": "FIAIP and \"do-it-yourself\" negotiations. EPISODE TWO",
     "image": "https://res.cloudinary.com/succimas/image/upload/v1610648282/sp/static/images/work/13/cover_ep1eep.png"
   },
-  "title": "FIAIP - Do It Yourself Ep. 2",
+  "title": "FIAIP - Do It Yourself EP2",
   "credits": [
     "**ART DIRECTOR:** Alessandra Madeddu\\\n**COPY:** Eros Fioravanti",
     "**ILLUSTRATION:** Serena Paratore\\\n**CREATIVE DIRECTOR:** Ralph Di Segni\\\n**MOTION DESIGNER:** Serena Paratore"

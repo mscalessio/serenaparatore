@@ -34,11 +34,16 @@
             <h1 class="text-4xl font-bold">{{ work.title }}</h1>
           </div>
           <div class="flex-auto">
-            <div class="md:px-4 py-4" v-html="$md.render(work.description)" />
+            <div
+              v-if="work.description"
+              class="md:px-4 py-4"
+              v-html="$md.render(work.description)"
+            />
             <div v-if="work.extras">
               <More title="Extra info:">
                 <template v-slot:content>
                   <div
+                    v-if="work.extras"
                     class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16 bg-gray-200 p-4"
                   >
                     <div
@@ -48,6 +53,23 @@
                       v-html="$md.render(extra)"
                     ></div>
                   </div>
+                  <div
+                    v-else
+                    class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16 bg-gray-200 p-4"
+                  >
+                    <p v-if="work.date" class="text-sm">
+                      <span class="font-bold uppercase">Year: </span
+                      >{{ $moment(work.date).format('YYYY') }}
+                    </p>
+                    <p v-if="work.client" class="text-sm">
+                      <span class="font-bold uppercase">Client: </span
+                      >{{ work.client }}
+                    </p>
+                    <p v-if="work.agency" class="text-sm">
+                      <span class="font-bold uppercase">Agency: </span
+                      >{{ work.agency }}
+                    </p>
+                  </div>
                 </template>
               </More>
             </div>
@@ -55,7 +77,7 @@
         </div>
       </div>
     </article>
-    <section v-if="work.video" class="p-4 pb-0 mt-8 mb-0">
+    <section v-if="work.video && work.video.id" class="p-4 pb-0 mt-8 mb-0">
       <div class="relative">
         <figure class="pt-video">
           <img
@@ -115,7 +137,7 @@
             :src="item"
             :class="[itemFullClass(index)]"
           /> -->
-          <figure class="pt-full">
+          <figure :class="[item.ratio === 'video' ? 'pt-video' : 'pt-full']">
             <img
               class="absolute inset-0 w-full h-full object-cover bg-gray-100"
               :class="{ 'col-span-full': item.fullwidth }"
@@ -194,14 +216,19 @@ export default {
   },
   head() {
     return {
-      title: `${this.work.metadata.title} | ${capitalize(
-        this.work.project_type
-      )} | ${this.site.name}`,
+      title:
+        this.work.metadata && this.work.metadata.title
+          ? `${this.work.metadata.title} | ${capitalize(
+              this.work.project_type
+            )} | ${this.site.name}`
+          : this.site.name,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.work.metadata.description || this.site.description,
+          content:
+            (this.work.metadata && this.work.metadata.description) ||
+            this.site.description,
         },
       ],
     }

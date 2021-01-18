@@ -244,12 +244,18 @@ collections:
                   widget: 'boolean',
                   default: false,
                 }
+              - label: 'Ratio'
+                name: 'ratio'
+                widget: 'select'
+                default: 'square'
+                options:
+                  - { label: 'Square', value: 'square' }
+                  - { label: '16by9', value: 'video' }
               - {
                   label: 'Image',
                   name: 'image',
                   widget: 'image',
                   default: false,
-                  media_folder: '/static/images/work',
                 }
       - label: 'Credits'
         name: 'credits'

@@ -25,6 +25,7 @@ export default {
         error({ statusCode: 404, message: 'Page not found' })
       })
     const works = await $content('work')
+      .sortBy('date', 'desc')
       .fetch()
       .catch((err) => {
         // eslint-disable-next-line no-console

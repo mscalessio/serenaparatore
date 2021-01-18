@@ -25,6 +25,7 @@
       },
       {
         "fullwidth": true,
+        "ratio": "video",
         "image": "https://res.cloudinary.com/succimas/image/upload/v1610646155/sp/static/images/work/8/gallery-4_rqwuuu.png"
       }
     ]
