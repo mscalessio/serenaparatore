@@ -85,15 +85,18 @@ collections:
                 name: url
                 widget: string
                 required: false
-      - label: 'Relations'
-        name: 'relation_files'
-        file: 'assets/content/site/relation_files.json'
+  - label: 'Relations'
+    name: 'relations',
+    files:
+      - label: 'Agencies'
+        name: 'agencies'
+        file: 'assets/content/relation_files/agencies.json'
         format: 'json'
         editor:
           preview: false
         fields:
-          - label: 'Clients'
-            name: 'clients'
+          - label: 'Agencies'
+            name: 'agencies'
             widget: 'list'
             required: false
             fields:
@@ -106,8 +109,15 @@ collections:
                 pattern:
                   - '^[a-z0-9-]+$'
                   - 'Must be digit and letter only, lowercase, and contains dash "-"'
-          - label: 'Agencies'
-            name: 'agencies'
+      - label: 'Clients'
+        name: 'clients'
+        file: 'assets/content/relation_files/clients.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: 'Clients'
+            name: 'clients'
             widget: 'list'
             required: false
             fields:
@@ -170,16 +180,16 @@ collections:
       - label: 'Agency'
         name: 'agency'
         widget: 'relation'
-        collection: 'relation_files'
-        file: 'assets/content/site/relation_files.json'
+        collection: 'relations'
+        file: 'agencies'
         search_fields: ['agencies.*.name']
         display_fields: ['agencies.*.name']
         value_field: 'agencies.*.slug'
       - label: 'Client'
         name: 'client'
         widget: 'relation'
-        collection: 'relation_files'
-        file: 'assets/content/site/relation_files.json'
+        collection: 'relations'
+        file: 'clients'
         search_fields: ['clients.*.name']
         display_fields: ['clients.*.name']
         value_field: 'clients.*.slug'

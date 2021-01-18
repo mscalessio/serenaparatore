@@ -1,0 +1,32 @@
+{
+  "clients": [
+    {
+      "name": "Personal",
+      "slug": "personal"
+    },
+    {
+      "name": "Cinecittà",
+      "slug": "cinecitta"
+    },
+    {
+      "name": "Banco Fast Food",
+      "slug": "banco-fast-food"
+    },
+    {
+      "name": "Enel",
+      "slug": "enel"
+    },
+    {
+      "name": "Engineering",
+      "slug": "engineering"
+    },
+    {
+      "name": "FIAP",
+      "slug": "fiap"
+    },
+    {
+      "name": "Galatine",
+      "slug": "galatine"
+    }
+  ]
+}
