@@ -85,6 +85,41 @@ collections:
                 name: url
                 widget: string
                 required: false
+      - label: 'Relations'
+        name: 'relation_files'
+        file: 'assets/content/site/relation_files.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: 'Clients'
+            name: 'clients'
+            widget: 'list'
+            required: false
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: slug
+                name: slug
+                widget: string
+                pattern:
+                  - '^[a-z0-9-]+$'
+                  - 'Must be digit and letter only, lowercase, and contains dash "-"'
+          - label: 'Agencies'
+            name: 'agencies'
+            widget: 'list'
+            required: false
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: slug
+                name: slug
+                widget: string
+                pattern:
+                  - '^[a-z0-9-]+$'
+                  - 'Must be digit and letter only, lowercase, and contains dash "-"'
   - name: 'blog'
     label: 'Blog'
     folder: 'assets/content/blog'
@@ -104,7 +139,7 @@ collections:
     folder: 'assets/content/work'
     create: true
     format: 'json'
-    slug: '{{project_type}}-{{slug}}'
+    slug: '{{project_type}}-{{agency}}-{{slug}}'
     preview_path: 'work/{{slug}}'
     editor:
       preview: false
@@ -132,8 +167,22 @@ collections:
           required: false,
         }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Agency', name: 'agency', widget: 'string' }
-      - { label: 'Client', name: 'client', widget: 'string' }
+      - label: 'Agency'
+        name: 'agency'
+        widget: 'relation'
+        collection: 'relation_files'
+        file: 'assets/content/site/relation_files.json'
+        search_fields: ['agencies.*.name']
+        display_fields: ['agencies.*.name']
+        value_field: 'agencies.*.slug'
+      - label: 'Client'
+        name: 'client'
+        widget: 'relation'
+        collection: 'relation_files'
+        file: 'assets/content/site/relation_files.json'
+        search_fields: ['clients.*.name']
+        display_fields: ['clients.*.name']
+        value_field: 'clients.*.slug'
       - label: 'Metadata'
         name: 'metadata'
         widget: 'object'
@@ -284,13 +333,18 @@ collections:
             name: 'description'
             widget: 'string'
             required: false
-          - { label: Intro, name: intro, widget: markdown, required: false}
+          - { label: Intro, name: intro, widget: markdown, required: false }
           - label: 'Cover'
             name: 'cover'
             widget: 'object'
             required: false
             fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: false }
+              - {
+                  label: 'Title',
+                  name: 'title',
+                  widget: 'string',
+                  required: false,
+                }
               - {
                   label: 'Subtitle',
                   name: 'subtitle',
