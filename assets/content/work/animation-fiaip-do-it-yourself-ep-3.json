@@ -1,0 +1,67 @@
+{
+  "project_type": "animation",
+  "extras": [
+    "**YEAR:** 2019",
+    "**AGENCY:** I Say Group",
+    "**CLIENT:** FIAIP | Federazione Italiana Agenti Immobiliari"
+  ],
+  "agency": "I Say Group",
+  "client": "FIAIP | Federazione Italiana Agenti Immobiliari",
+  "featured": false,
+  "date": "2020-02-01T16:48:46.449Z",
+  "metadata": {
+    "title": "FIAIP | Federazione Italiana Agenti Immobiliari \"Do-it-yourself\"",
+    "description": "FIAIP and \"do-it-yourself\" negotiations. EPISODE THREE"
+  },
+  "gallery": {
+    "columns": 3,
+    "items": [
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648498/sp/static/images/work/14/gallery-1_l63mja.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648517/sp/static/images/work/14/gallery-2_hnqrds.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648535/sp/static/images/work/14/gallery-3_joxlgo.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648557/sp/static/images/work/14/gallery-4_fyjbu8.gif"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648571/sp/static/images/work/14/gallery-5_iv2x9a.png"
+      },
+      {
+        "fullwidth": false,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648603/sp/static/images/work/14/gallery-6_pxrlqk.gif"
+      },
+      {
+        "fullwidth": true,
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648625/sp/static/images/work/14/gallery-7_c4mvn1.png"
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "subtitle": "FIAIP and \"do-it-yourself\" negotiations. EPISODE THREE",
+    "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610648481/sp/static/images/work/14/cover_ybjdz0.png"
+  },
+  "title": "FIAIP - Do It Yourself Ep.3",
+  "credits": [
+    "**ART DIRECTOR:** Alessandra Madeddu\\\n**COPY:** Eros Fioravanti",
+    "**ILLUSTRATION:** Serena Paratore\\\n**CREATIVE DIRECTOR:** Ralph Di Segni\\\n**MOTION DESIGNER:** Serena Paratore"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610648643/sp/static/images/work/14/thumb_dqbna0.png",
+    "url": "https://vimeo.com/315487517",
+    "id": "315487517"
+  },
+  "description": "Fiaip presents the first episode of a trilogy of potential bad experiences you could do if you want to sell, rent or buy a house without a real estate agent.\n\nAre you sure you want to risk?\n\nStay tuned.."
+}
