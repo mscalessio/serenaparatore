@@ -1,12 +1,12 @@
 {
   "project_type": "animation",
-  "agency": "19Novanta",
-  "client": "Cinecittà",
   "extras": [
     "**YEAR:**\\\n2016",
     "**AGENCY:**\\\n19Novanta",
     "**CLIENT:**\\\nCinecittà"
   ],
+  "agency": "19novanta",
+  "client": "cinecitta",
   "featured": false,
   "date": "2014-07-16T11:47:10.840Z",
   "metadata": {
@@ -18,15 +18,18 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/gallery-1_atwk1r.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/sp/static/images/work/1/gallery-1_atwk1r.gif",
+        "ratio": "square"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627546/sp/static/images/work/1/gallery-2_cqheuv.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627546/sp/static/images/work/1/gallery-2_cqheuv.gif",
+        "ratio": "square"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627536/sp/static/images/work/1/gallery-3_s81zgk.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627536/sp/static/images/work/1/gallery-3_s81zgk.gif",
+        "ratio": "square"
       },
       {
         "fullwidth": true,
