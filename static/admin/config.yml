@@ -182,6 +182,7 @@ collections:
         widget: 'relation'
         collection: 'relations'
         file: 'agencies'
+        required: false
         search_fields: ['agencies.*.name']
         display_fields: ['agencies.*.name']
         value_field: 'agencies.*.name'
@@ -190,6 +191,7 @@ collections:
         widget: 'relation'
         collection: 'relations'
         file: 'clients'
+        required: false
         search_fields: ['clients.*.name']
         display_fields: ['clients.*.name']
         value_field: 'clients.*.name'
@@ -307,6 +309,7 @@ collections:
                 name: 'ratio'
                 widget: 'select'
                 default: 'square'
+                required: false
                 options:
                   - { label: 'Square', value: 'square' }
                   - { label: '16by9', value: 'video' }

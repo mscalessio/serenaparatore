@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar :sticky="$route.name === 'work-slug'" />
+    <Navbar :sticky="true" />
     <Nuxt />
     <Footer />
     <PortalTarget name="end-body"></PortalTarget>

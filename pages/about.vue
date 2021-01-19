@@ -25,10 +25,13 @@
         </div>
       </div>
     </section>
-    <article
-      class="px-4 md:w-2/3 md:mx-auto my-8"
-      v-html="$md.render(page.intro)"
-    />
+    <div class="px-4 flex flex-col sm:flex-row my-8 container mx-auto">
+      <figure class="flex-shrink-0 order-2 sm:order-1" v-if="page.signature">
+        <img class="w-60" :src="page.signature" alt="My Signature" />
+      </figure>
+      <article class="sm:pl-16 sm:order-2" v-html="$md.render(page.intro)" />
+    </div>
+    <Cta />
   </main>
 </template>
 

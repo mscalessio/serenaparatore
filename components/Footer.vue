@@ -1,14 +1,16 @@
 <template>
   <footer id="footer" class="p-2 pb-0 mt-8">
     <div class="container mx-auto">
-      <div class="block w-full py-4"><Logo /></div>
+      <div class="block w-full py-4"><LogoNew /></div>
       <div class="md:flex py-4 space-y-4 sm:space-y-0">
         <div class="sm:w-1/5">
           <ul class="space-y-4">
             <li v-for="(item, i) in site.sitemap" :key="i">
-              <a :href="item.url" class="link text-xl font-light">{{
-                item.name
-              }}</a>
+              <a
+                :href="item.url"
+                class="link link--footer text-xl font-light"
+                >{{ item.name }}</a
+              >
             </li>
           </ul>
         </div>
@@ -16,20 +18,32 @@
           <h5 class="text-xl font-thin mb-4">Contacts</h5>
           <p class="text-sm">
             <span class="font-bold">General inquiries</span><br />
-            <a v-if="showEmail" :href="`mailto:${site.email}`" class="link">{{
-              site.email
-            }}</a>
-            <span v-if="!showEmail" class="link" @click="showEmail = !showEmail"
+            <a
+              v-if="showEmail"
+              :href="`mailto:${site.email}`"
+              class="link link--footer"
+              >{{ site.email }}</a
+            >
+            <span
+              v-if="!showEmail"
+              class="link link--footer"
+              @click="showEmail = !showEmail"
               >Click to show</span
             ><br /><br />
             <span class="font-bold">Address</span><br />
             <span>{{ site.address }}</span>
             <br /><br />
             <span class="font-bold">Phone</span><br />
-            <a v-if="showPhone" :href="`tel:${site.phone}`" class="link">{{
-              site.phone
-            }}</a>
-            <span v-if="!showPhone" class="link" @click="showPhone = !showPhone"
+            <a
+              v-if="showPhone"
+              :href="`tel:${site.phone}`"
+              class="link link--footer"
+              >{{ site.phone }}</a
+            >
+            <span
+              v-if="!showPhone"
+              class="link link--footer"
+              @click="showPhone = !showPhone"
               >Click to show</span
             >
           </p>
@@ -40,7 +54,7 @@
             <li v-for="(social, i) in site.socials" :key="i">
               <a
                 :href="social.url"
-                class="font-light link"
+                class="font-light link link--footer"
                 target="_blank"
                 rel="nofollow"
                 >{{ social.name }}</a

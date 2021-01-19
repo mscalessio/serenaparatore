@@ -6,13 +6,16 @@
   .link {
     @apply w-24 text-center cursor-pointer py-2 px-2;
   }
+  .link--footer {
+    @apply hover:text-purple-600 px-0 text-left;
+  }
 
   .link:not(.nuxt-link-exact-active) {
-    @apply hover:text-purple-600 hover:font-bold;
+    @apply hover:font-bold;
   }
 
   .link.nuxt-link-exact-active {
-    @apply text-purple-600 font-bold;
+    @apply font-bold;
   }
 
   .link.nuxt-link-exact-active {
@@ -20,14 +23,14 @@
   }
 
   .mobile-link {
-    @apply block px-3 py-2 rounded-md text-base font-medium;
+    @apply block px-3 py-2 text-2xl font-bold text-white;
   }
 
   .mobile-link:not(.nuxt-link-exact-active) {
-    @apply hover:text-gray-300 hover:bg-gray-700;
+    @apply hover:font-bold;
   }
   .mobile-link.nuxt-link-exact-active {
-    @apply bg-gray-900 text-white;
+    @apply font-bold;
   }
 
 }
