@@ -130,6 +130,16 @@ collections:
                 pattern:
                   - '^[a-z0-9-]+$'
                   - 'Must be digit and letter only, lowercase, and contains dash "-"'
+              - label: 'Show on frontpage'
+                name: 'show'
+                widget: 'boolean'
+                default: false
+                required: false
+              - label: 'Logo'
+                name: 'logo'
+                widget: 'image'
+                required: false
+                allow_multiple: false
   - name: 'blog'
     label: 'Blog'
     folder: 'assets/content/blog'

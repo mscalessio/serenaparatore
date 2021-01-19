@@ -26,7 +26,7 @@
       </div>
     </section>
     <div class="px-4 flex flex-col sm:flex-row my-8 container mx-auto">
-      <figure class="flex-shrink-0 order-2 sm:order-1" v-if="page.signature">
+      <figure v-if="page.signature" class="flex-shrink-0 order-2 sm:order-1">
         <img class="w-60" :src="page.signature" alt="My Signature" />
       </figure>
       <article class="sm:pl-16 sm:order-2" v-html="$md.render(page.intro)" />

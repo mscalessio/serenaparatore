@@ -1,26 +1,15 @@
 <template>
-  <section class="bg-gray-200 py-8">
-    <div class="container mx-auto">
-      <p class="text-2xl font-semibold">They have already trusted us.</p>
-      <Gallery :columns="6">
-        <GalleryItem>
-          <LogoTim />
-        </GalleryItem>
-        <GalleryItem>
-          <LogoMercedes />
-        </GalleryItem>
-        <GalleryItem>
-          <LogoPayback />
-        </GalleryItem>
-        <GalleryItem>
-          <LogoSmart />
-        </GalleryItem>
-        <GalleryItem>
-          <LogoColgate />
-        </GalleryItem>
-      </Gallery>
-    </div>
-  </section>
+  <main>
+    <section class="h-screen bg-purple-500">
+      <div class="h-full flex items-center px-16">
+        <p class="text-2xl font-bold text-white">
+          Hi!<br />
+          My name is Serena Paratore
+        </p>
+      </div>
+    </section>
+    <Clients />
+  </main>
 </template>
 
 <script>
@@ -33,6 +22,7 @@ export default {
         console.log(err)
         error({ statusCode: 404, message: 'Page not found' })
       })
+
     return {
       site,
     }
