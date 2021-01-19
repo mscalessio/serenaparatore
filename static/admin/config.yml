@@ -149,7 +149,7 @@ collections:
     folder: 'assets/content/work'
     create: true
     format: 'json'
-    slug: '{{project_type}}-{{agency}}-{{slug}}'
+    slug: '{{project_type}}-{{slug}}'
     preview_path: 'work/{{slug}}'
     editor:
       preview: false
@@ -184,7 +184,7 @@ collections:
         file: 'agencies'
         search_fields: ['agencies.*.name']
         display_fields: ['agencies.*.name']
-        value_field: 'agencies.*.slug'
+        value_field: 'agencies.*.name'
       - label: 'Client'
         name: 'client'
         widget: 'relation'
@@ -192,7 +192,7 @@ collections:
         file: 'clients'
         search_fields: ['clients.*.name']
         display_fields: ['clients.*.name']
-        value_field: 'clients.*.slug'
+        value_field: 'clients.*.name'
       - label: 'Metadata'
         name: 'metadata'
         widget: 'object'

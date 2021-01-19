@@ -12,6 +12,12 @@
         <GalleryItem>
           <LogoPayback />
         </GalleryItem>
+        <GalleryItem>
+          <LogoSmart />
+        </GalleryItem>
+        <GalleryItem>
+          <LogoColgate />
+        </GalleryItem>
       </Gallery>
     </div>
   </section>
