@@ -13,20 +13,20 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646039/sp/static/images/work/7/gallery-1_c4lnin.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646039/remote/images/work/7/gallery-1_c4lnin.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646002/sp/static/images/work/7/gallery-2_k8x4kg.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646002/remote/images/work/7/gallery-2_k8x4kg.jpg"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645982/sp/static/images/work/7/gallery-3_qcln3b.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645982/remote/images/work/7/gallery-3_qcln3b.gif"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645952/sp/static/images/work/7/gallery-4_llf8yy.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645952/remote/images/work/7/gallery-4_llf8yy.jpg"
       }
     ]
   },
@@ -34,7 +34,7 @@
     "text_color": "white",
     "title": "Mercedes-Benz | GLA Social Drive Experience",
     "subtitle": "Opening credits of the new Mercedes Benz initiative.",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646052/sp/static/images/work/7/cover_ig7ey3.jpg"
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646052/remote/images/work/7/cover_ig7ey3.jpg"
   },
   "title": "Mercedes-Benz | GLA Social Drive Experience",
   "credits": [
@@ -43,7 +43,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646052/sp/static/images/work/7/cover_ig7ey3.jpg",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646052/remote/images/work/7/cover_ig7ey3.jpg",
     "url": "https://vimeo.com/141401968",
     "id": "141401968"
   },

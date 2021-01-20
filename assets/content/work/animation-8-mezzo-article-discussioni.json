@@ -18,20 +18,20 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645873/sp/static/images/work/6/gallery-1_ynvwb6.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645873/remote/images/work/6/gallery-1_ynvwb6.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645846/sp/static/images/work/6/gallery-2_ibiusc.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645846/remote/images/work/6/gallery-2_ibiusc.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645821/sp/static/images/work/6/gallery-3_uqcdzl.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645821/remote/images/work/6/gallery-3_uqcdzl.gif"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645798/sp/static/images/work/6/gallery-4_hk6scf.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610645798/remote/images/work/6/gallery-4_hk6scf.jpg"
       }
     ]
   },
@@ -39,7 +39,7 @@
     "text_color": "white",
     "title": " 8½ ARTICLE | Discussioni",
     "subtitle": "Digital version of magazine's article",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610645897/sp/static/images/work/6/cover_jyjjrf.png"
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610645897/remote/images/work/6/cover_jyjjrf.png"
   },
   "title": "8½ ARTICLE | Discussioni",
   "credits": [
@@ -48,7 +48,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610645897/sp/static/images/work/6/cover_jyjjrf.png",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610645897/remote/images/work/6/cover_jyjjrf.png",
     "url": "https://vimeo.com/141427546",
     "id": "141427546"
   },

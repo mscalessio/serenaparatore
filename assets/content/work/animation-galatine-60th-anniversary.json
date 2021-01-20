@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632914/sp/static/images/work/2/gallery-1_mahx7v.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632914/remote/images/work/2/gallery-1_mahx7v.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632961/sp/static/images/work/2/gallery-2_rdtftt.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632961/remote/images/work/2/gallery-2_rdtftt.jpg"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632995/sp/static/images/work/2/gallery-3_ri4lvq.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632995/remote/images/work/2/gallery-3_ri4lvq.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633042/sp/static/images/work/2/gallery-4_akz3m9.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633042/remote/images/work/2/gallery-4_akz3m9.jpg"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632842/sp/static/images/work/2/cover_ua6s2b.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610632842/remote/images/work/2/cover_ua6s2b.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633147/sp/static/images/work/2/gallery-6_xdcdg1.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633147/remote/images/work/2/gallery-6_xdcdg1.jpg"
       },
       {
         "fullwidth": false,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633200/sp/static/images/work/2/gallery-7_zn8ucz.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633200/remote/images/work/2/gallery-7_zn8ucz.jpg"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "title": "Galatine | 60th anniversary",
     "subtitle": "Galatine is celebrating the 60th anniversary of its candy.",
     "text_color": "yellow",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610632842/sp/static/images/work/2/cover_ua6s2b.png"
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610632842/remote/images/work/2/cover_ua6s2b.png"
   },
   "title": "Galatine | 60th anniversary",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610633147/sp/static/images/work/2/gallery-6_xdcdg1.jpg",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610633147/remote/images/work/2/gallery-6_xdcdg1.jpg",
     "title": "",
     "id": "169860399",
     "url": "https://vimeo.com/169860399"

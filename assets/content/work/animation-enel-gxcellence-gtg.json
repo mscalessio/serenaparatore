@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646495/sp/static/images/work/9/gallery-1_ksaolv.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646495/remote/images/work/9/gallery-1_ksaolv.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646470/sp/static/images/work/9/gallery-2_v73ip0.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646470/remote/images/work/9/gallery-2_v73ip0.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646442/sp/static/images/work/9/gallery-3_ibgweq.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646442/remote/images/work/9/gallery-3_ibgweq.jpg"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646412/sp/static/images/work/9/gallery-4_qpcc2u.jpg"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646412/remote/images/work/9/gallery-4_qpcc2u.jpg"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646391/sp/static/images/work/9/gallery-5_k2dmrx.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646391/remote/images/work/9/gallery-5_k2dmrx.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646363/sp/static/images/work/9/gallery-6_kioshj.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646363/remote/images/work/9/gallery-6_kioshj.png"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646333/sp/static/images/work/9/gallery-7_uoubp2.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646333/remote/images/work/9/gallery-7_uoubp2.png"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "text_color": "blue",
     "title": "Enel | Gxcellence GTG",
     "subtitle": "Global Thermal Generation colleagues have now a channel they can use to share their innovative ideas and improvement proposals to build the future of Enel.",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646519/sp/static/images/work/9/cover_uaigfn.png"
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646519/remote/images/work/9/cover_uaigfn.png"
   },
   "title": "Enel | Gxcellence GTG",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646333/sp/static/images/work/9/gallery-7_uoubp2.png",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646333/remote/images/work/9/gallery-7_uoubp2.png",
     "url": "https://vimeo.com/219376793",
     "id": "219376793"
   },

@@ -7,19 +7,19 @@
     {
       "name": "ALD",
       "slug": "ald",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075969/sp/static/svg/ald.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075969/remote/svgs/ald.svg",
       "show": true
     },
     {
       "name": "Boing",
       "slug": "boing",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076405/sp/static/svg/boing.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076405 vboing.svg",
       "show": true
     },
     {
       "name": "BPer",
       "slug": "bper",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075968/sp/static/svg/bper.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075968/remote/svgs/bper.svg",
       "show": true
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Chicco",
       "slug": "chicco",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075966/sp/static/svg/chicco.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075966/remote/svgs/chicco.svg",
       "show": true
     },
     {
@@ -39,19 +39,19 @@
     {
       "name": "Colgate",
       "slug": "colgate",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075965/sp/static/svg/colgate.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075965/remote/svgs/colgate.svg",
       "show": true
     },
     {
       "name": "Daruma",
       "slug": "daruma",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075964/sp/static/svg/daruma.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075964/remote/svgs/daruma.svg",
       "show": true
     },
     {
       "name": "Enel",
       "slug": "enel",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075963/sp/static/svg/enel.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075963/remote/svgs/enel.svg",
       "show": true
     },
     {
@@ -61,7 +61,7 @@
     {
       "name": "FCA",
       "slug": "fca",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075963/sp/static/svg/fca.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075963/remote/svgs/fca.svg",
       "show": true
     },
     {
@@ -75,67 +75,67 @@
     {
       "name": "LIU•JO",
       "slug": "liu-jo",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075961/sp/static/svg/liujo.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075961/remote/svgs/liujo.svg",
       "show": true
     },
     {
       "name": "Mercedes-Benz",
       "slug": "mercedes-benz",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076678/sp/static/svg/mercedes.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076678/remote/svgs/mercedes.svg",
       "show": true
     },
     {
       "name": "Molinari",
       "slug": "molinari",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075961/sp/static/svg/molinari.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075961/remote/svgs/molinari.svg",
       "show": true
     },
     {
       "name": "Payback",
       "slug": "payback",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075959/sp/static/svg/payback.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075959/remote/svgs/payback.svg",
       "show": true
     },
     {
       "name": "Skoda",
       "slug": "skoda",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075958/sp/static/svg/skoda.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075958/remote/svgs/skoda.svg",
       "show": true
     },
     {
       "name": "Smart",
       "slug": "smart",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075957/sp/static/svg/smart.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075957/remote/svgs/smart.svg",
       "show": true
     },
     {
       "name": "Thun",
       "slug": "thun",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076873/sp/static/svg/thun.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076873/remote/svgs/thun.svg",
       "show": true
     },
     {
       "name": "TIM",
       "slug": "tim",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076922/sp/static/svg/tim.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611076922/remote/svgs/tim.svg",
       "show": true
     },
     {
       "name": "Unipol",
       "slug": "unipol",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075957/sp/static/svg/unipol.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075957/remote/svgs/unipol.svg",
       "show": true
     },
     {
       "name": "YOOX",
       "slug": "yoox",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075956/sp/static/svg/yoox.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075956/remote/svgs/yoox.svg",
       "show": true
     },
     {
       "name": "Zueg",
       "slug": "zueg",
-      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075955/sp/static/svg/zueg.svg",
+      "logo": "https://res.cloudinary.com/succimas/image/upload/v1611075955/remote/svgs/zueg.svg",
       "show": true
     }
   ]

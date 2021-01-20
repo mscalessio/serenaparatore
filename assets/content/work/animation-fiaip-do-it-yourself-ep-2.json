@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648300/sp/static/images/work/13/gallery-1_zzxkdb.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648300/remote/images/work/13/gallery-1_zzxkdb.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648318/sp/static/images/work/13/gallery-2_fhqb2e.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648318/remote/images/work/13/gallery-2_fhqb2e.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648336/sp/static/images/work/13/gallery-3_km5hw5.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648336/remote/images/work/13/gallery-3_km5hw5.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648359/sp/static/images/work/13/gallery-4_mcuy09.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648359/remote/images/work/13/gallery-4_mcuy09.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648372/sp/static/images/work/13/gallery-5_u7agul.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648372/remote/images/work/13/gallery-5_u7agul.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648398/sp/static/images/work/13/gallery-6_qdf1k3.gif"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648398/remote/images/work/13/gallery-6_qdf1k3.gif"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648409/sp/static/images/work/13/gallery-7_jpkpir.png"
+        "image": "https://res.cloudinary.com/succimas/image/upload/v1610648409/remote/images/work/13/gallery-7_jpkpir.png"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "text_color": "white",
     "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
     "subtitle": "FIAIP and \"do-it-yourself\" negotiations. EPISODE TWO",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610648282/sp/static/images/work/13/cover_ep1eep.png"
+    "image": "https://res.cloudinary.com/succimas/image/upload/v1610648282/remote/images/work/13/cover_ep1eep.png"
   },
   "title": "FIAIP - Do It Yourself EP2",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610648282/sp/static/images/work/13/cover_ep1eep.png",
+    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610648282/remote/images/work/13/cover_ep1eep.png",
     "url": "https://vimeo.com/315477083",
     "id": "315477083"
   },
