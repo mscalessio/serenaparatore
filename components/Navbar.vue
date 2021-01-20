@@ -2,7 +2,7 @@
   <nav :class="[navClass]">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div
-        class="relative flex items-center justify-between h-24 z-20 text-white"
+        class="relative flex items-center justify-between h-24 z-20 text-purple-600"
       >
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -47,7 +47,12 @@
             <div class="flex">
               <nuxt-link class="link" to="/works">Works</nuxt-link>
               <nuxt-link class="link" to="/about">About</nuxt-link>
-              <nuxt-link class="link" to="#footer">Contact</nuxt-link>
+              <a
+                class="link"
+                href="#footer"
+                @click.prevent="scrollInto('footer')"
+                >Contact</a
+              >
             </div>
           </div>
         </div>
@@ -73,6 +78,12 @@
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <nuxt-link to="/works" class="mobile-link">Works</nuxt-link>
           <nuxt-link to="/about" class="mobile-link">About</nuxt-link>
+          <a
+            class="mobile-link"
+            href="#footer"
+            @click.prevent="scrollInto('footer')"
+            >Contact</a
+          >
         </div>
       </div>
     </transition>
@@ -101,7 +112,7 @@ export default {
     navClass() {
       return {
         'bg-transparent': this.sticky && !this.isUserScrolling,
-        'bg-purple-600 shadow-2xl': this.sticky && this.isUserScrolling,
+        'bg-white shadow-2xl': this.sticky && this.isUserScrolling,
         'fixed top-0 left-0 w-full z-20': this.sticky,
       }
     },
@@ -119,6 +130,16 @@ export default {
     window.removeEventListener('scroll', this.handleDebouncedScroll)
   },
   methods: {
+    scrollInto(el) {
+      const element = document.querySelector(el)
+      this.open && (this.open = false)
+      element &&
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'end',
+          inline: 'nearest',
+        })
+    },
     handleScroll(event) {
       this.isUserScrolling = window.scrollY > this.navbarHeight
     },
