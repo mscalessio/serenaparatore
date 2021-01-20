@@ -1,5 +1,10 @@
 <template>
   <main>
+    <SocialHead
+      :title="page.title"
+      :description="page.description || site.description"
+      :image="page.cover.image"
+    />
     <section
       class="relative px-4 py-40 bg-purple-500 bg-no-repeat bg-cover"
       :style="{
@@ -38,6 +43,13 @@
 <script>
 export default {
   async asyncData({ $content, error }) {
+    const site = await $content('site/info')
+      .fetch()
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.log(err)
+        error({ statusCode: 404, message: 'Page not found' })
+      })
     const page = await $content('about')
       .fetch()
       .catch((err) => {
@@ -47,6 +59,7 @@ export default {
       })
 
     return {
+      site,
       page,
     }
   },
@@ -67,6 +80,25 @@ export default {
         'text-pink-500': textColor === 'pink',
       }
     },
+  },
+  head() {
+    return {
+      title: `${this.page.title} | ${this.site.name}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.description,
+        },
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `${this.$config.baseURL}${this.$route.path}`,
+        },
+      ],
+    }
   },
 }
 </script>

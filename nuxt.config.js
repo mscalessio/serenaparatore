@@ -15,6 +15,65 @@ export default {
         name: 'description',
         content: siteInfo.description || process.env.npm_package_name || '',
       },
+
+      // Twitter
+      // Test on: https://cards-dev.twitter.com/validator
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      // { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: process.env.BASE_URL || 'https://serenaparatore.com',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: siteInfo.name,
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: siteInfo.description,
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: siteInfo.default_image || '',
+      },
+
+      // Open Graph
+      // Test on: https://developers.facebook.com/tools/debug/
+      { hid: 'og:site_name', property: 'og:site_name', content: siteInfo.name },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: process.env.BASE_URL || 'https://serenaparatore.com',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: siteInfo.name,
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: siteInfo.description,
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: siteInfo.default_image || '',
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: siteInfo.default_image || '',
+      },
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -24,6 +83,11 @@ export default {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap',
+      },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: process.env.BASE_URL || 'https://serenaparatore.com',
       },
     ],
     script: [

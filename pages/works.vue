@@ -48,6 +48,13 @@ export default {
           content: 'A collection of selected works.',
         },
       ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `${this.$config.baseURL}${this.$route.path}`,
+        },
+      ],
     }
   },
 }

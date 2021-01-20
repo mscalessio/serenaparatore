@@ -59,6 +59,10 @@ collections:
             name: analytics_id
             widget: string
             required: false
+          - label: Default Sharing Image
+            name: default_image
+            widget: string
+            required: false
           - label: 'Sitemap'
             name: 'sitemap'
             widget: 'list'

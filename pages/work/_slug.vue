@@ -1,5 +1,13 @@
 <template>
   <main v-if="work">
+    <SocialHead
+      :title="work.title"
+      :description="
+        (work.metadata && work.metadata.description) || site.description
+      "
+      :image="work.cover.image"
+      type="article"
+    />
     <section
       v-if="work.cover"
       class="relative px-4 py-40 bg-gray-100 bg-no-repeat bg-cover"
@@ -224,6 +232,13 @@ export default {
           content:
             (this.work.metadata && this.work.metadata.description) ||
             this.site.description,
+        },
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `${this.$config.baseURL}${this.$route.path}`,
         },
       ],
     }
