@@ -14,7 +14,7 @@
     "description": "Digital version of magazine's article"
   },
   "gallery": {
-    "columns": 1,
+    "columns": 3,
     "items": [
       {
         "fullwidth": false,
