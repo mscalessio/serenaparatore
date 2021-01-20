@@ -42,6 +42,7 @@
       },
       {
         "fullwidth": true,
+        "ratio": "video",
         "image": "https://res.cloudinary.com/succimas/image/upload/v1610648025/remote/images/work/12/gallery-7_pmfrpr.png"
       }
     ]

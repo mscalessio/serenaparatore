@@ -78,7 +78,7 @@ export default {
   css: ['@/assets/css/tailwind.css', '@/assets/css/main.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: ['~/plugins/vue-lazyload.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: {
@@ -110,7 +110,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxt/image',
     '@nuxtjs/markdownit',
     'portal-vue/nuxt',
     // https://sitemap.nuxtjs.org/
@@ -133,15 +132,6 @@ export default {
       matchZones: /Europe\/(Rome|London|Paris|Athens)/,
       startYear: 2000,
       endYear: 2030,
-    },
-  },
-
-  // Image module configuration (https://image.nuxtjs.org/options)
-  image: {
-    providers: {
-      cloudinary: {
-        baseURL: 'https://res.cloudinary.com/succimas/image/upload/',
-      },
     },
   },
 

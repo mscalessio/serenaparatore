@@ -127,24 +127,19 @@
           :key="i"
           :fullwidth="item.fullwidth"
         >
-          <!-- for USE THIS ONLY IN SSR -->
-          <!-- <nuxt-image
-            v-for="(item, index) in items"
-            :key="index"
-            :placeholder="true"
-            width="400"
-            height="225"
-            :src="item"
-            :class="[itemFullClass(index)]"
-          /> -->
-          <figure :class="[item.ratio === 'video' ? 'pt-video' : 'pt-full']">
+          <GalleryImage
+            :src="item.image"
+            :alt="item.alt || `${work.title} Image ${i}`"
+            :ratio="item.ratio"
+          />
+          <!-- <figure :class="[item.ratio === 'video' ? 'pt-video' : 'pt-full']">
             <img
               class="absolute inset-0 w-full h-full object-cover bg-gray-100"
               :class="{ 'col-span-full': item.fullwidth }"
               :alt="item.alt || `${work.title} Image ${i}`"
               :src="item.image"
             />
-          </figure>
+          </figure> -->
         </GalleryItem>
       </Gallery>
     </section>
