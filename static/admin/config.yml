@@ -3,13 +3,14 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/images
-public_folder: /images
+media_folder:
+public_folder:
 
 locale: 'it'
 
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: succimas
     api_key: 767197248277585

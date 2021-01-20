@@ -137,7 +137,13 @@ export default {
   },
 
   // Image module configuration (https://image.nuxtjs.org/options)
-  image: {},
+  image: {
+    providers: {
+      cloudinary: {
+        baseURL: 'https://res.cloudinary.com/succimas/image/upload/',
+      },
+    },
+  },
 
   // Google-Anbalytics module configuration (https://google-analytics.nuxtjs.org/options)
   googleAnalytics: {
@@ -174,5 +180,8 @@ export default {
 
   publicRuntimeConfig: {
     baseURL: process.env.BASE_URL || 'https://serenaparatore.com',
+    imageBaseURL:
+      process.env.IMAGE_BASE_URL ||
+      'https://res.cloudinary.com/succimas/image/upload/',
   },
 }
