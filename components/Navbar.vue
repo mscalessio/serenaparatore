@@ -1,6 +1,6 @@
 <template>
-  <nav :class="[navClass]">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+  <nav class="px-2" :class="[navClass]">
+    <div class="container mx-auto">
       <div
         class="relative flex items-center justify-between h-24 z-20 text-purple-600"
       >
@@ -111,7 +111,7 @@ export default {
   computed: {
     navClass() {
       return {
-        'bg-transparent': this.sticky && !this.isUserScrolling,
+        'bg-transparent text-white': this.sticky && !this.isUserScrolling,
         'bg-white shadow-2xl': this.sticky && this.isUserScrolling,
         'fixed top-0 left-0 w-full z-20': this.sticky,
       }

@@ -34,3 +34,9 @@
   }
 
 }
+
+@layer components {
+  .card:hover .card-text {
+    @apply opacity-90;
+  }
+}

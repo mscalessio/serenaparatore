@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="mt-24">
     <div class="container mx-auto">
       <Gallery :columns="2">
         <GalleryItem

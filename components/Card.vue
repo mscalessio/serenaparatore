@@ -1,6 +1,6 @@
 <template>
-  <nuxt-link :to="`work/${work.slug}`" class="relative flex flex-col">
-    <div class="shadow-xl pt-media-sm md:pt-media-md lg:pt-media-lg">
+  <nuxt-link :to="`work/${work.slug}`" class="relative flex flex-col card">
+    <div class="pt-media-sm md:pt-media-md lg:pt-media-lg">
       <img
         v-lazy="work.cover.image"
         alt=""
@@ -8,7 +8,7 @@
       />
     </div>
     <div
-      class="absolute inset-0 w-full bg-purple-300 opacity-0 transition-opacity ease-out hover:opacity-90"
+      class="absolute inset-0 w-full bg-purple-300 opacity-0 transition-opacity ease-out card-text"
     >
       <div
         class="flex flex-col h-full justify-center items-center text-center z-10 p-4"

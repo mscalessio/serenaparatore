@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-4" :class="gridCols">
+  <div class="grid sm:gap-4 md:gap-8" :class="gridCols">
     <slot></slot>
   </div>
 </template>
