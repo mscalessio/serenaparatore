@@ -201,7 +201,7 @@ export default {
 
   // Google-Anbalytics module configuration (https://google-analytics.nuxtjs.org/options)
   googleAnalytics: {
-    id: siteInfo.analytics_id || 'UA-XXX-X',
+    id: process.env.GOOGLE_ANALYTICS_ID,
   },
 
   // Sitemap module configuration (https://google-analytics.nuxtjs.org/options)
@@ -237,5 +237,8 @@ export default {
     imageBaseURL:
       process.env.IMAGE_BASE_URL ||
       'https://res.cloudinary.com/serenaparatore/image/upload/',
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
   },
 }
