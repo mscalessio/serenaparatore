@@ -11,7 +11,7 @@
         </p> -->
       </div>
     </section>
-    <section class="m-16">
+    <section class="mt-16">
       <div class="container mx-auto">
         <Gallery :columns="2">
           <GalleryItem
@@ -23,7 +23,7 @@
           </GalleryItem>
         </Gallery>
       </div>
-      <div class="flex flex-col justify-center items-center mt-16">
+      <div class="flex flex-col justify-center items-center my-16">
         <nuxt-link
           to="/works"
           class="text-xl sm:text-2xl py-4 px-8 bg-purple-600 text-white hover:bg-white hover:text-purple-600"
