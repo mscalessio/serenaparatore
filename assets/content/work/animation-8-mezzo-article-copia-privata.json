@@ -18,23 +18,23 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/remote/images/work/1/gallery-1_atwk1r.gif",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627537/remote/images/work/1/gallery-1_atwk1r.gif",
         "ratio": "square"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627546/remote/images/work/1/gallery-2_cqheuv.gif",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627546/remote/images/work/1/gallery-2_cqheuv.gif",
         "ratio": "square"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627536/remote/images/work/1/gallery-3_s81zgk.gif",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627536/remote/images/work/1/gallery-3_s81zgk.gif",
         "ratio": "square"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/remote/images/work/1/gallery-4_meo1bf.jpg"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627537/remote/images/work/1/gallery-4_meo1bf.jpg"
       }
     ]
   },
@@ -42,7 +42,7 @@
     "title": "8½ ARTICLE | Copia Privata",
     "subtitle": "Digital version of magazine's article",
     "text_color": "black",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610627537/remote/images/work/1/cover_o1nj3k.png"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627537/remote/images/work/1/cover_o1nj3k.png"
   },
   "title": "8½ ARTICLE | Copia Privata",
   "credits": [
@@ -51,7 +51,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610627537/remote/images/work/1/gallery-4_meo1bf.jpg",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/v1610627537/remote/images/work/1/gallery-4_meo1bf.jpg",
     "title": "test",
     "id": "142138521",
     "url": "https://vimeo.com/142138521"

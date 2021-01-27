@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633353/remote/images/work/3/gallery-1_cbo9w7.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633353/remote/images/work/3/gallery-1_cbo9w7.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633466/remote/images/work/3/gallery-2_mevuut.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633466/remote/images/work/3/gallery-2_mevuut.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633535/remote/images/work/3/gallery-3_ayw7x6.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633535/remote/images/work/3/gallery-3_ayw7x6.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633608/remote/images/work/3/gallery-4_w5x0j5.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633608/remote/images/work/3/gallery-4_w5x0j5.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633659/remote/images/work/3/gallery-5_kpe339.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633659/remote/images/work/3/gallery-5_kpe339.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633713/remote/images/work/3/gallery-6_kz0uoi.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633713/remote/images/work/3/gallery-6_kz0uoi.gif"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610633762/remote/images/work/3/gallery-7_hsr4tb.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633762/remote/images/work/3/gallery-7_hsr4tb.png"
       }
 
     ]
@@ -52,7 +52,7 @@
     "title": "Engineering| EnergIA App",
     "subtitle": "Home EnerglA is the new project firmed Engineering for an App that allows you to remotely control our home appliances.",
     "text_color": "white",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610633304/remote/images/work/3/cover_kbvkbi.png"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633304/remote/images/work/3/cover_kbvkbi.png"
   },
   "title": "Engineering| EnergIA App",
   "credits": [
@@ -61,7 +61,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610633304/remote/images/work/3/cover_kbvkbi.png",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/v1610633304/remote/images/work/3/cover_kbvkbi.png",
     "title": "",
     "id": "191543935",
     "url": "https://vimeo.com/191543935"

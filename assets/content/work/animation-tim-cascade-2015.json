@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634204/remote/images/work/4/gallery-1_hsfftj.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634204/remote/images/work/4/gallery-1_hsfftj.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634181/remote/images/work/4/gallery-2_zx9w9n.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634181/remote/images/work/4/gallery-2_zx9w9n.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634164/remote/images/work/4/gallery-3_ac7fy3.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634164/remote/images/work/4/gallery-3_ac7fy3.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634146/remote/images/work/4/gallery-4_bglrvs.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634146/remote/images/work/4/gallery-4_bglrvs.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634129/remote/images/work/4/gallery-5_hyekni.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634129/remote/images/work/4/gallery-5_hyekni.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634106/remote/images/work/4/gallery-6_a6vcdu.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634106/remote/images/work/4/gallery-6_a6vcdu.png"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634094/remote/images/work/4/gallery-7_yljzo9.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634094/remote/images/work/4/gallery-7_yljzo9.png"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "text_color": "blue",
     "title": "Tim | Cascade 2015",
     "subtitle": "A report of activities they have done to engage employees and making them partners of corporate business strategies.",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610634219/remote/images/work/4/cover_hdkxzc.jpg"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634219/remote/images/work/4/cover_hdkxzc.jpg"
   },
   "title": "Tim | Cascade 2015",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610634094/remote/images/work/4/gallery-7_yljzo9.png",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634094/remote/images/work/4/gallery-7_yljzo9.png",
     "url": "https://vimeo.com/151935112",
     "id": "151935112"
   },

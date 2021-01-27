@@ -18,32 +18,32 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634650/remote/images/work/5/gallery-1_qcblzo.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634650/remote/images/work/5/gallery-1_qcblzo.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634616/remote/images/work/5/gallery-2_gxj3ri.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634616/remote/images/work/5/gallery-2_gxj3ri.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634682/remote/images/work/5/cover_wixaoj.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634682/remote/images/work/5/cover_wixaoj.gif"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634586/remote/images/work/5/gallery-4_pcnwlt.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634586/remote/images/work/5/gallery-4_pcnwlt.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634560/remote/images/work/5/gallery-5_d2q327.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634560/remote/images/work/5/gallery-5_d2q327.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634535/remote/images/work/5/gallery-6_mrieds.gif"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634535/remote/images/work/5/gallery-6_mrieds.gif"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610634507/remote/images/work/5/gallery-7_abxyh0.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634507/remote/images/work/5/gallery-7_abxyh0.png"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "text_color": "white",
     "subtitle": "Trillion proposes an innovative socio-technical platform to foster effective collaboration between citizens and law-enforcement agencies.",
     "title": "Engineering| Trillion App",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610634682/remote/images/work/5/cover_wixaoj.gif"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634682/remote/images/work/5/cover_wixaoj.gif"
   },
   "title": "Engineering| Trillion App",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610634507/remote/images/work/5/gallery-7_abxyh0.png",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/v1610634507/remote/images/work/5/gallery-7_abxyh0.png",
     "url": "https://vimeo.com/188911371",
     "id": "188911371"
   },

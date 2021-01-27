@@ -13,20 +13,20 @@
     "items": [
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646229/remote/images/work/8/gallery-1_gepoqg.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646229/remote/images/work/8/gallery-1_gepoqg.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646203/remote/images/work/8/gallery-2_wsm1bx.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646203/remote/images/work/8/gallery-2_wsm1bx.png"
       },
       {
         "fullwidth": false,
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646178/remote/images/work/8/gallery-3_bs1l7u.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646178/remote/images/work/8/gallery-3_bs1l7u.png"
       },
       {
         "fullwidth": true,
         "ratio": "video",
-        "image": "https://res.cloudinary.com/succimas/image/upload/v1610646155/remote/images/work/8/gallery-4_rqwuuu.png"
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646155/remote/images/work/8/gallery-4_rqwuuu.png"
       }
     ]
   },
@@ -34,7 +34,7 @@
     "text_color": "white",
     "subtitle": "100% natural Fast Food based in Rome.",
     "title": "Banco Fast Food | Logo Story",
-    "image": "https://res.cloudinary.com/succimas/image/upload/v1610646254/remote/images/work/8/cover_jybgow.jpg"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646254/remote/images/work/8/cover_jybgow.jpg"
   },
   "title": "Banco Fast Food | Logo Story",
   "credits": [
@@ -44,7 +44,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/succimas/image/upload/v1610646155/remote/images/work/8/gallery-4_rqwuuu.png",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/v1610646155/remote/images/work/8/gallery-4_rqwuuu.png",
     "url": "https://vimeo.com/224052904",
     "id": "224052904"
   },

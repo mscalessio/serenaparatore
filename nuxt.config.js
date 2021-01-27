@@ -236,6 +236,6 @@ export default {
     baseURL: process.env.BASE_URL || 'https://serenaparatore.com',
     imageBaseURL:
       process.env.IMAGE_BASE_URL ||
-      'https://res.cloudinary.com/succimas/image/upload/',
+      'https://res.cloudinary.com/serenaparatore/image/upload/',
   },
 }
