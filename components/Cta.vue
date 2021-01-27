@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-purple-600 text-white py-16 px-8 md:p-24 mt-8 text-center">
+  <section class="bg-purple-600 text-white py-16 px-8 md:p-24 text-center">
     <div class="container mx-auto">
       <div
-        class="flex flex-col justify-center items-center border-t-2 border-b-2 border-white py-8 md:p-16"
+        class="flex flex-col justify-center items-center border-white py-8 md:p-16"
       >
         <h5 class="sm:text-4xl font-bold mb-4">Got something on your mind?</h5>
         <p class="sm:text-2xl">

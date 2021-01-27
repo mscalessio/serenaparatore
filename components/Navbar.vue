@@ -104,7 +104,7 @@ export default {
   data() {
     return {
       open: false,
-      navbarHeight: 50,
+      navbarHeight: 10,
       isUserScrolling: false,
     }
   },
@@ -112,7 +112,7 @@ export default {
     navClass() {
       return {
         'bg-transparent text-white': this.sticky && !this.isUserScrolling,
-        'bg-white shadow-2xl': this.sticky && this.isUserScrolling,
+        'bg-white': this.sticky && this.isUserScrolling,
         'fixed top-0 left-0 w-full z-20': this.sticky,
       }
     },
