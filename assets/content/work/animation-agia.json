@@ -1,9 +1,9 @@
 {
   "project_type": "animation",
-  "agency": "Personal",
+  "agency": "Human Creative",
   "client": "Personal",
   "featured": false,
-  "date": "2020-06-12T15:54:18.243Z",
+  "date": "2021-01-29T16:49:22.465Z",
   "gallery": {
     "columns": 2,
     "items": []
@@ -12,10 +12,10 @@
     "text_color": "black",
     "image": "https://res.cloudinary.com/serenaparatore/image/upload/v1610648712/remote/images/work/15/thumb_hlw422.png"
   },
-  "title": "AGIA",
+  "title": "AGiA",
   "video": {
     "type": "vimeo",
     "cover": false
   },
-  "description": "Work in progress"
+  "description": "“Diritti in crescita” is an integrated campaign created for the Presidency of the Council of Ministers \\\nand the Guarantor Authority for Children and Adolescents (’Autorità Garante per l’Infanzia e l’Adolescenza)  on children's rights for the UN anniversary."
 }
