@@ -8,7 +8,7 @@
     "description": "Day45 - At least you’ve got a dog"
   },
   "gallery": {
-    "columns": 2,
+    "columns": 3,
     "items": [
       {
         "fullwidth": false,
@@ -26,7 +26,9 @@
   "title": "Dog during quarantine.",
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/Olivia%202.png"
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/Olivia%202.png",
+    "url": "https://vimeo.com/410586165",
+    "id": "410586165"
   },
-  "description": "As COVID-19 sweeps the globe, causing unprecedented effects, nonprofits, foundations, and governments are working to figure out the best course of action to serve their communities. \\\nThe world population is forced to live indoors during the lockdown. My dog helped make this moment special."
+  "description": "As [COVID-19](https://it.wikipedia.org/wiki/COVID-19) sweeps the globe, causing unprecedented effects, nonprofits, foundations, and governments are working to figure out the best course of action to serve their communities. \\\nThe world population is forced to live indoors during the lockdown. \n\nMy dog helped make this moment special."
 }
