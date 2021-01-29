@@ -8,12 +8,17 @@
     "description": "Day45 - At least you’ve got a dog"
   },
   "gallery": {
-    "columns": 3,
+    "columns": 2,
     "items": [
       {
         "fullwidth": false,
-        "ratio": "square",
-        "image": false
+        "ratio": "video",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/olivia1.png"
+      },
+      {
+        "fullwidth": false,
+        "ratio": "video",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/Olivia%202.png"
       }
     ]
   },
