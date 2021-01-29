@@ -51,7 +51,7 @@
     "text_color": "white",
     "subtitle": "- Ep.3",
     "title": "FIAIP | Federazione Italiana Agenti Immobiliari",
-    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/14/EPISODIO-3_uzcqto.jpg"
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/14/cover-3_eziuwo.png"
   },
   "title": "FIAIP - Trattative \"fai da te\"",
   "credits": [
@@ -60,7 +60,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/14/EPISODIO-3-cover_nwdi5o.jpg",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/14/EPISODIO-3_uzcqto.jpg",
     "url": "https://vimeo.com/315487517",
     "id": "315487517"
   },
