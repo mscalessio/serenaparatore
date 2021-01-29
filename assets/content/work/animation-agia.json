@@ -19,7 +19,7 @@
   },
   "cover": {
     "text_color": "indigo",
-    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/15/cover_agia.png",
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/15/cover-agia_2.png",
     "title": "AGiA | Diritti in crescita",
     "subtitle": ""
   },
@@ -30,7 +30,7 @@
   ],
   "video": {
     "type": "vimeo",
-    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/15/cover-agia_2.png",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/15/cover_agia.png",
     "url": "https://vimeo.com/506195517",
     "id": "506195517"
   },
