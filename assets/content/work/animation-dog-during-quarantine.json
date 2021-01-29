@@ -1,0 +1,32 @@
+{
+  "project_type": "animation",
+  "agency": "Personal",
+  "featured": false,
+  "date": "2021-01-29T14:56:00.000Z",
+  "metadata": {
+    "title": "Dog during quarantine.",
+    "description": "Day45 - At least you’ve got a dog"
+  },
+  "gallery": {
+    "columns": 2,
+    "items": [
+      {
+        "fullwidth": false,
+        "ratio": "square",
+        "image": false
+      }
+    ]
+  },
+  "cover": {
+    "text_color": "white",
+    "title": "\"At least you’ve got a dog\"",
+    "subtitle": "- day 45",
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/olivia.png"
+  },
+  "title": "Dog during quarantine.",
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/17/Olivia%202.png"
+  },
+  "description": "As COVID-19 sweeps the globe, causing unprecedented effects, nonprofits, foundations, and governments are working to figure out the best course of action to serve their communities. \\\nThe world population is forced to live indoors during the lockdown. My dog helped make this moment special."
+}
