@@ -27,9 +27,11 @@
       "url": "https://www.behance.net/serenaparatore"
     }
   ],
+  "logo": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/serena_paratore_logo.png",
   "name": "Serena Paratore - Motion Designer",
   "phone": "+393929002503",
   "lang": "it-IT",
+  "analytics_id": "UA-177383107-2",
   "address": "Via Alessandro Minuziano 70/B, Rome - Italy",
   "sitemap": [
     {
@@ -43,7 +45,5 @@
   ],
   "email": "serena.paratore@gmail.com",
   "description": "I am a freelance motion designer based in Rome.",
-  "logo": "https://res.cloudinary.com/serenaparatore/image/upload/v1610729226/remote/images/serena_paratore_logo.png",
-  "analytics_id": "UA-177383107-2",
   "default_image": ""
 }
