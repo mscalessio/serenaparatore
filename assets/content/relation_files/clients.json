@@ -139,7 +139,7 @@
       "show": true
     },
     {
-      "show": true,
+      "show": false,
       "name": "AGiA",
       "slug": "agia"
     }
