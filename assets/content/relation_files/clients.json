@@ -137,6 +137,11 @@
       "slug": "zueg",
       "logo": "https://res.cloudinary.com/serenaparatore/image/upload/v1611075955/remote/svgs/zueg.svg",
       "show": true
+    },
+    {
+      "show": true,
+      "name": "AGiA",
+      "slug": "agia"
     }
   ]
 }
