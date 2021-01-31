@@ -1,12 +1,19 @@
 <template>
   <main>
     <section class="h-screen">
-      <CoverVideo
-        :sources="[
-          'https://res.cloudinary.com/serenaparatore/video/upload/remote/animation/animation-home.mp4',
-        ]"
-        img="demo/assets/bg.jpg"
-      ></CoverVideo>
+      <video
+        ref="videoCover"
+        class="w-full h-full object-cover"
+        autoplay
+        playsinline
+        loop
+        muted
+      >
+        <source
+          src="https://res.cloudinary.com/serenaparatore/video/upload/v1612106712/remote/animation/animation-home.mp4"
+          type="video/mp4"
+        />
+      </video>
     </section>
     <section class="mt-16">
       <div class="container mx-auto">
