@@ -360,7 +360,25 @@ collections:
             name: 'description'
             widget: 'string'
             required: false
-          - { label: Intro, name: intro, widget: markdown, required: false }
+          - label: 'Metadata'
+            name: 'metadata'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'markdown', widget: 'string' }
+          - label: 'Intro'
+            name: 'intro'
+            widget: 'object'
+            required: false
+            fields:
+              - { label: 'Image', name: 'image', widget: 'string', required: false }
+              - { label: 'Title', name: 'title', widget: 'string', required: false }
+              - {
+                  label: 'Description',
+                  name: 'description',
+                  widget: 'markdown',
+                  required: false
+                }
           - label: 'Cover'
             name: 'cover'
             widget: 'object'
@@ -398,3 +416,4 @@ collections:
                 widget: 'image'
                 required: false
                 allow_multiple: false
+          - { label: Content, name: content, widget: markdown, required: false}

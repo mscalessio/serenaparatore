@@ -14,6 +14,9 @@ module.exports = {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         mono: [...defaultTheme.fontFamily.mono],
       },
+      height: {
+        '60screen': '60vh',
+      },
       padding: {
         full: '100%',
         video: '56.25%',

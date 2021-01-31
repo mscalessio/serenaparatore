@@ -6,12 +6,13 @@
       :image="page.cover.image"
     />
     <section
-      class="relative px-4 py-40 bg-purple-500 bg-no-repeat bg-cover"
+      class="relative px-4 py-40 bg-purple-500 bg-no-repeat bg-cover h-60screen"
       :style="{
         backgroundImage: page.cover.image ? `url('${page.cover.image}')` : null,
       }"
     >
-      <div class="container mx-auto">
+      <span class="sr-only"> </span>
+      <!-- <div class="container mx-auto">
         <div class="sm:w-2/3 lg:w-1/2">
           <h2
             v-if="page.cover.title"
@@ -28,14 +29,43 @@
             {{ page.cover.subtitle }}
           </h3>
         </div>
-      </div>
+      </div> -->
     </section>
-    <div class="px-4 flex flex-col sm:flex-row my-8 container mx-auto">
-      <figure v-if="page.signature" class="flex-shrink-0 order-2 sm:order-1">
-        <img class="w-60" :src="page.signature" alt="My Signature" />
+    <section class="px-4 max-w-screen-lg mx-auto mt-16 mb-8">
+      <h2 class="text-purple-600 font-bold text-2xl md:text-4xl">
+        {{ page.title }}
+      </h2>
+      <div
+        class="text-xl md:text-2xl mt-8"
+        v-html="$md.render(page.description)"
+      ></div>
+    </section>
+    <div
+      v-if="page.intro"
+      class="px-4 flex flex-col items-center justify-center md:items-start md:flex-row my-8 max-w-screen-lg mx-auto"
+    >
+      <figure v-if="page.intro.image" class="flex-shrink-0 md:mr-8">
+        <img class="w-60" :src="page.intro.image" alt="My pic" />
       </figure>
-      <article class="sm:pl-16 sm:order-2" v-html="$md.render(page.intro)" />
+      <div class="md:self-center">
+        <h3
+          v-if="page.intro.title"
+          class="text-purple-600 font-light text-2xl md:text-4xl"
+        >
+          {{ page.intro.title }}
+        </h3>
+        <div
+          v-if="page.intro.description"
+          class="mt-4"
+          v-html="$md.render(page.intro.description)"
+        ></div>
+      </div>
     </div>
+    <div
+      v-if="page.content"
+      class="px-4 max-w-screen-lg mx-auto mb-16"
+      v-html="$md.render(page.content)"
+    ></div>
     <Cta />
   </main>
 </template>
@@ -83,12 +113,12 @@ export default {
   },
   head() {
     return {
-      title: `${this.page.title} | ${this.site.name}`,
+      title: `${this.page.metadata.title} | ${this.site.name}`,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.page.description,
+          content: this.page.metadata.description,
         },
       ],
       link: [
