@@ -1,15 +1,12 @@
 <template>
   <main>
-    <section
-      class="h-screen bg-purple-500 bg-center bg-no-repeat bg-cover"
-      :style="{ backgroundImage: `url('/remote/images/bg-home.png')` }"
-    >
-      <div class="h-full flex items-center px-16">
-        <!-- <p class="text-2xl font-bold text-white">
-          Hi!<br />
-          My name is Serena Paratore
-        </p> -->
-      </div>
+    <section class="h-screen">
+      <CoverVideo
+        :sources="[
+          'https://res.cloudinary.com/serenaparatore/video/upload/remote/animation/animation-home.mp4',
+        ]"
+        img="demo/assets/bg.jpg"
+      ></CoverVideo>
     </section>
     <section class="mt-16">
       <div class="container mx-auto">

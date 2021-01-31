@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar :sticky="true" />
+    <Navbar sticky :fillBg="$route.name === 'about'" />
     <Nuxt />
     <Footer />
     <PortalTarget name="end-body"></PortalTarget>

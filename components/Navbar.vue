@@ -1,5 +1,5 @@
 <template>
-  <nav class="px-2" :class="[navClass]">
+  <nav class="px-2" :class="[navClass, { 'bg-white': fillBg }]">
     <div class="container mx-auto">
       <div
         class="relative flex items-center justify-between h-24 z-20 text-purple-600"
@@ -7,12 +7,12 @@
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <button
-            class="inline-flex items-center justify-center p-2 text-purple-600 bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="inline-flex items-center justify-center p-2 h-16 w-16 text-purple-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             :aria-expanded="open"
             @click="open = !open"
           >
             <span class="sr-only">Open main menu</span>
-            <svg
+            <!-- <svg
               class="h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -34,12 +34,28 @@
                 stroke-width="2"
                 d="M4 6h16M4 12h16M4 18h16"
               />
-            </svg>
+            </svg> -->
+            <Lottie
+              id="burger-menu"
+              :options="{
+                path: '/remote/animation/close.json',
+                loop: true,
+                autoplay: true,
+              }"
+            />
+            <style>
+              #burger-menu path {
+                fill: #fff;
+                transition-property: fill, stroke;
+                transition-duration: 0.2s;
+                transition-timing-function: ease-out;
+              }
+            </style>
           </button>
         </div>
         <div class="flex-1 flex justify-start">
-          <nuxt-link to="/" class="flex-shrink-0 flex items-center space-x-4">
-            <LogoNew />
+          <nuxt-link to="/">
+            <LogoAnim />
           </nuxt-link>
         </div>
         <div class="flex items-center">
@@ -100,6 +116,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    fillBg: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     return {
@@ -111,8 +131,9 @@ export default {
   computed: {
     navClass() {
       return {
-        'bg-transparent text-white': this.sticky && !this.isUserScrolling,
-        'bg-white': this.sticky && this.isUserScrolling,
+        'bg-transparent': this.sticky && !this.isUserScrolling && !this.fillBg,
+        'bg-white': this.sticky && this.isUserScrolling && !this.fillBg,
+        'text-white': this.sticky && !this.isUserScrolling && !this.fillBg,
         'fixed top-0 left-0 w-full z-20': this.sticky,
       }
     },
