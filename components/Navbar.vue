@@ -7,55 +7,30 @@
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <button
-            class="inline-flex items-center justify-center p-2 h-16 w-16 text-purple-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="inline-flex items-center justify-center p-2 h-16 w-16 text-purple-600 focus:outline-none focus:ring-0 focus:ring-transparent"
             :aria-expanded="open"
-            @click="open = !open"
+            @click="handleBurgerClick"
           >
             <span class="sr-only">Open main menu</span>
-            <!-- <svg
-              class="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              :aria-hidden="open"
-            >
-              <path
-                v-if="open"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-              <path
-                v-else
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg> -->
             <Lottie
               id="burger-menu"
               :options="{
                 path: '/remote/animation/close.json',
-                loop: true,
-                autoplay: true,
+                loop: false,
+                autoplay: false,
               }"
+              @animCreated="handleBurgerAnimation"
             />
-            <style>
-              #burger-menu path {
-                fill: #fff;
-                transition-property: fill, stroke;
-                transition-duration: 0.2s;
-                transition-timing-function: ease-out;
-              }
-            </style>
+            <VStyle>
+              #burger-menu path { fill: {{ burgerFillColor }};
+              transition-property: fill, stroke; transition-duration: 0.2s;
+              transition-timing-function: ease-out; }
+            </VStyle>
           </button>
         </div>
         <div class="flex-1 flex justify-start">
           <nuxt-link to="/">
-            <LogoAnim />
+            <LogoAnim :color="burgerFillColor" />
           </nuxt-link>
         </div>
         <div class="flex items-center">
@@ -86,7 +61,7 @@
     >
       <div
         v-if="open"
-        class="sm:hidden fixed inset-0 w-full h-full bg-black pt-24"
+        class="sm:hidden fixed inset-0 w-full h-full bg-purple-600 pt-24"
       >
         <div
           class="flex flex-col items-center justify-center px-2 pt-2 pb-3 space-y-2"
@@ -126,9 +101,15 @@ export default {
       open: false,
       navbarHeight: 10,
       isUserScrolling: false,
+      anim: null,
+      animStartFrame: 30,
+      animEndFrame: 90,
     }
   },
   computed: {
+    burgerFillColor() {
+      return this.open ? '#fff' : 'currentColor'
+    },
     navClass() {
       return {
         'bg-transparent': this.sticky && !this.isUserScrolling && !this.fillBg,
@@ -163,6 +144,23 @@ export default {
     },
     handleScroll(event) {
       this.isUserScrolling = window.scrollY > this.navbarHeight
+    },
+    handleBurgerAnimation(anim) {
+      this.anim = anim
+    },
+    handleBurgerClick() {
+      this.open === false ? this.openMobileMenu() : this.closeMobileMenu()
+    },
+    openMobileMenu() {
+      this.anim.setDirection(1)
+      this.anim.playSegments([this.animStartFrame, this.animEndFrame], true)
+      this.open = true
+    },
+    closeMobileMenu() {
+      this.anim.setDirection(-1)
+      this.anim.playSegments([this.animEndFrame, this.animStartFrame], true)
+      // this.anim.goToAndPlay(this.animEndFrame, true)
+      this.open = false
     },
   },
 }
