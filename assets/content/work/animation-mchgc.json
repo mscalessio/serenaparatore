@@ -1,0 +1,25 @@
+{
+  "featured": false,
+  "project_type": "animation",
+  "cover": {
+    "text_color": "black",
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/18/oz2_kxud0a.jpg"
+  },
+  "video": {
+    "type": "vimeo",
+    "cover": false
+  },
+  "gallery": {
+    "columns": 2,
+    "items": [
+      {
+        "fullwidth": false,
+        "ratio": "square",
+        "image": false
+      }
+    ]
+  },
+  "date": "2021-01-28T11:06:55.816Z",
+  "title": "mchgc",
+  "description": "jhhj"
+}
