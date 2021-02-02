@@ -1,25 +1,42 @@
 {
-  "featured": false,
   "project_type": "animation",
-  "cover": {
-    "text_color": "black",
-    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/18/oz2_kxud0a.jpg"
-  },
-  "video": {
-    "type": "vimeo",
-    "cover": false
+  "extras": [
+    "**Year:** 2020",
+    "**Agency:** Klein Russo",
+    "**Client:** Molinari"
+  ],
+  "client": "Molinari",
+  "featured": false,
+  "date": "2021-01-28T11:06:55.816Z",
+  "metadata": {
+    "title": "Molinari 75° Anniversary Limited Edition",
+    "description": "Molinari-75-Anniversary-Limited-Edition"
   },
   "gallery": {
-    "columns": 2,
+    "columns": 1,
     "items": [
       {
-        "fullwidth": false,
-        "ratio": "square",
-        "image": false
+        "fullwidth": true,
+        "ratio": "video",
+        "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/18/bottiglia.png"
       }
     ]
   },
-  "date": "2021-01-28T11:06:55.816Z",
-  "title": "mchgc",
-  "description": "jhhj"
+  "cover": {
+    "text_color": "white",
+    "image": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/18/oz_jr855x.jpg",
+    "title": "Different but together."
+  },
+  "title": "Molinari 75° Anniversary Limited Edition",
+  "credits": [
+    "**Direction:** Fabrizio Russo\n\n**Producer:** Anna Ballirano\n\n**Project Manager:** Elettra Filardo\n\n**Illustration:** Olimpia Zagnoli aka OZ\n\n**Animation:** Serena Paratore",
+    "**Agency:** Klein Russo\n\n**Creative Director:** Antonio Fatini\n\n**Account:** Manuela Bartelli, Valentina Beretta\n\n**Copy:** Elisabetta D'Alessandro\n\n**Art Direction:** Antonio Mautone"
+  ],
+  "video": {
+    "type": "vimeo",
+    "cover": "https://res.cloudinary.com/serenaparatore/image/upload/remote/images/work/18/cover-video.png",
+    "url": "https://vimeo.com/serenaparatore/review/507480747/106481fadb",
+    "id": "507480747"
+  },
+  "description": "In the year of the 75th anniversary of the brand, the historic Molinari bottle changes its look with a Limited Edition in sparkling colors signed by the illustrator Olimpia Zagnoli, aka OZ.\n\nThe colorful visions of Olympia appear and remain in incredible places. Multiple of her covers and her illustrations for The New Yorker, Apple, The New York Times, Guggenheim Museum, La Repubblica and The Guardian. OZ has also often represented the Italian spirit with Limited Editions and capsules for some of the best known and most appreciated brands in the world, from Prada to Missoni, from Barilla to Fiat.\n\nWith the strategic and creative consultancy of KLEINRUSSO, this collaboration was born that gave life to a bottle created to bring out the main values of the brand, such as sociability and sharing."
 }
