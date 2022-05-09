@@ -1,0 +1,23 @@
+{
+  "featured": true,
+  "project_type": "animation",
+  "cover": {
+    "text_color": "black"
+  },
+  "video": {
+    "type": "vimeo",
+    "cover": false
+  },
+  "gallery": {
+    "columns": 2,
+    "items": [
+      {
+        "fullwidth": false,
+        "ratio": "square",
+        "image": false
+      }
+    ]
+  },
+  "date": "2022-05-09T13:23:05.756Z",
+  "title": "Test"
+}
